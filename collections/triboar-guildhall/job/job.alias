@@ -1,4 +1,5 @@
 <drac2>
+return f"DEBUG: Starting"
 a =argparse(&ARGS&)
 ch=character()
 
