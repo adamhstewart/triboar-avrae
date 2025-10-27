@@ -1,0 +1,233 @@
+<drac2>
+
+# Setup the embed
+base = f'''embed -title "{name} goes hunting!" -color {color} -thumb {image} -desc "Hunting requires the ability to find game (survival), an accurate shot with a bow, javelin, or spear, and the ability to harvest the meat (survival)."'''
+
+# Setup
+c = character()
+cs = character().skills
+rr_num = c.csettings.get("reroll", None)
+min_harvest = 1
+harv_mod = False
+harv_mult = 1
+nl = "\n"
+backfeat = get("backgroundFeature", "")
+args = &ARGS&
+parse = argparse(args)
+percentile_species = vroll('1d100')
+loot_added = False
+misc_bonus = ""
+find_bonus = ""
+kill_bonus = ""
+harv_bonus = ""
+
+# Setup error based on args
+if len(args) == 0:
+	err(f'''You must provide an argument for the type of hunting you want to do, core arguments include `grasslands`, `mountains`, and `forest`. Your server may have additional options, contact your bot gurus for details''')
+
+# Grab svars
+dataSelect = load_json(get_svar("HuntArgs", "{}"))
+dataSelect.update({'grasslands': 'HuntSpeciesGrasslands', 'mountains': 'HuntSpeciesMountains', 'forest': 'HuntSpeciesForest'})
+svarName = dataSelect.get(args[0])
+huntdata = []
+defaultData = {'HuntSpeciesGrasslands': '[{"species": "Quails", "weight": 3, "percent": 0, "AC": 13}, {"species": "Squirrels", "weight": 5, "percent": 15, "AC": 13}, {"species": "Rabbits", "weight": 8, "percent": 25, "AC": 13}, {"species": "Pheasants", "weight": 10, "percent": 40, "AC": 13}, {"species": "Antelope", "weight": 24, "percent": 50, "AC": 12}, {"species": "Wild Goat", "weight": 20, "percent": 65, "AC": 11}, {"species": "Wolf", "weight": 20, "percent": 80, "AC": 13}, {"species": "Deer", "weight": 30, "percent": 85, "AC": 13},  {"species": "Auroch", "weight": 60, "percent": 90, "AC": 11},  {"species": "Leopard", "weight": 25, "percent": 95, "AC": 15}]', 'HuntSpeciesMountains': '[{"species": "Rock Doves", "weight": 5, "percent": 0, "AC": 13}, {"species": "Marmots", "weight": 6, "percent": 10, "AC": 13}, {"species": "Mountain Hare", "weight": 6, "percent": 25, "AC": 13}, {"species": "Wild Goat", "weight": 20, "percent": 35, "AC": 12}, {"species": "Ibex", "weight": 25, "percent": 55, "AC": 11}, {"species": "Snow Leopard", "weight": 20, "percent": 65, "AC": 14}, {"species": "Eagle", "weight": 15, "percent": 75, "AC": 12}, {"species": "Bear", "weight": 40, "percent": 85, "AC": 13},  {"species": "Giant Goat", "weight": 30, "percent": 95, "AC": 13},  {"species": "Mountain Lion", "weight": 90, "percent": 99, "AC": 15}]', 'HuntSpeciesForest': '[{"species": "Squirrels", "weight": 5, "percent": 0, "AC": 13}, {"species": "Grouse", "weight": 6, "percent": 10, "AC": 13}, {"species": "Rabbits", "weight": 7, "percent": 20, "AC": 13}, {"species": "Deer", "weight": 30, "percent": 40, "AC": 13}, {"species": "Wild Boar", "weight": 25, "percent": 60, "AC": 11}, {"species": "Black Bear", "weight": 35, "percent": 75, "AC": 13}, {"species": "Elk", "weight": 45, "percent": 85, "AC": 12}, {"species": "Wolf", "weight": 20, "percent": 95, "AC": 13},  {"species": "Tiger", "weight": 90, "percent": 99, "AC": 15}]'}
+if len(dataSelect) > 0:
+	if args[0] in dataSelect.keys():
+		huntdata = load_json(get_svar(svarName, defaultData.get(svarName)).replace("species","s").replace("weight","w").replace("percent","p").replace("AC","a").replace("info","i").replace("meat","m"))
+settings = load_json(get_svar("SurvSettings", '{"fishFind": [10,50,80,95], "fishHarvDC": 20, "huntFind": [10,45,75,90], "huntHarvDC": 22, "foraFind": [15,40,85,90], "foraHarvDC": 17, "harvest": true, "cooldown": false, "coolTime": 0, "fishCool": false, "fishCoolTime": 0, "huntCool": false, "huntCoolTime": 0, "forageCool": false, "forageCoolTime": 0}'))
+
+if not settings.get('coolType'):
+	settings.update({"coolType": "blank"})
+
+dc_percent_list = settings.get("huntFind")
+max_DC = settings.get("huntHarvDC")
+
+# Load the species data from args, some error handling
+if len(huntdata) == 0 or len(huntdata[0]) == 0:
+	err(f'''Seems like you forgot to include an argument to determine type of hunting, your server's bot gurus have disabled {args[0]} hunting, or you've used an invalid argument. Please contact them to correct this.''')
+
+# Process bonuses from args
+bonus = parse.get('b')
+fbonus = parse.get('fb')
+kbonus = parse.get('kb')
+hbonus = parse.get('hb')
+if "-b" in args:
+	misc_bonus += f'+{bonus[0]}'
+if "-fb" in args:
+	find_bonus += f'+{fbonus[0]}'
+if "-kb" in args:
+	kill_bonus += f'+{kbonus[0]}'
+if "-hb" in args:
+	harv_bonus += f'+{hbonus[0]}'
+
+# Setup advantage boolwise logic
+advbase = parse.adv(boolwise=True)
+far = parse.adv(custom={'adv': 'fadv', 'dis': 'fdis'}, boolwise=True)
+har = parse.adv(custom={'adv': 'hadv', 'dis': 'hdis'}, boolwise=True)
+if far == None and advbase != None:
+	far = advbase
+if har == None and advbase != None:
+	har = advbase
+if far == True and advbase != None:
+	if advbase == False:
+		far = None
+	else:
+		far = far
+if far == False and advbase != None:
+	if advbase == True:
+		far = None
+	else:
+		far = far
+if har == True and advbase != None:
+	if advbase == False:
+		har = None
+	else:
+		har = har
+if har == False and advbase != None:
+	if advbase == True:
+		har = None
+	else:
+		har = har
+
+# Setup advantage handling for attack
+if parse.get('eadv'):
+	if parse.get('dis') or parse.get('kdis'):
+		attackadv = 0
+	else:
+		attackadv = 2
+elif parse.get('adv'):
+	if parse.get('dis') or parse.get('kdis'):
+		attackadv = 0
+	else:
+		attackadv = 1
+elif parse.get('kadv'):
+	if parse.get('dis') or parse.get('kdis'):
+		attackadv = 0
+	else:
+		attackadv = 1
+elif parse.get('kdis') or parse.get('dis'):
+	attackadv = -1
+else:
+	attackadv = 0
+
+# Setup settings for automatic harvesting
+harv_setting = load_json(get("huntSurvHarvesting", "true").lower())
+if harv_setting is False or settings.get('harvest') is False:
+	harvesting = False
+else:
+	harvesting = True
+
+# Help setup
+help = f'''help {ctx.alias} -here'''
+if len(args) == 1 and args[0].lower() in '?help':
+	return help
+
+# Establish DC to find game
+if "grasslands" in args:
+	find_dc = 10
+elif "forest" in args:
+	find_dc = 12
+elif "mountains" in args:
+	find_dc = 15
+## We don't know.
+else:
+	find_dc = 15
+
+# Figure out which animal is being hunted for
+index = 0
+specific_species = []
+for i,j in enumerate(huntdata):
+	cur_species = huntdata[i].get('s')
+	for arg in args:
+		if (arg.lower() in cur_species.lower()) and (cur_species not in specific_species):
+			specific_species.append(cur_species)
+	if percentile_species.total > huntdata[i].get('p'):
+		index += 1
+index -= 1
+
+# Load the data for that particular animal
+kill_ac = huntdata[index].get('a')
+species = huntdata[index].get('s')
+max_weight = huntdata[index].get('w')
+information = huntdata[index].get('i')
+meat_replace = huntdata[index].get('m')
+
+# Handling if someone does a specific species
+targeted = None
+if len(specific_species) > 0 and species in specific_species:
+	targeted = True
+elif len(specific_species) > 0 and species not in specific_species:
+	targeted = False
+
+# Roll the survival check to find a good spot
+fab = cs.survival
+fskill =  "Survival"
+fmc = (10 if c.csettings.get("talent", False) and fab.prof else None)
+find_string = fab.d20(far, rr_num, fmc) + ("+1d4[guidance]" if parse.get("guidance") else "") + misc_bonus + find_bonus
+find_check = vroll(find_string)
+
+# Establish the kill check
+huntlist = []
+attacklist = []
+globals = {"charismaMod": charismaMod, "charismaSave": charismaSave, "charisma": charisma, "constitutionMod": constitutionMod, "constitutionSave": constitutionSave, "constitution": constitution, "description": description, "dexterityMod": dexterityMod, "dexteritySave": dexteritySave, "dexterity": dexterity, "intelligenceMod": intelligenceMod, "intelligenceSave": intelligenceSave, "intelligence": intelligence, "proficiencyBonus": proficiencyBonus, "strengthMod": strengthMod, "strengthSave": strengthSave, "strength": strength, "wisdomMod": wisdomMod, "wisdomSave": wisdomSave, "wisdom": wisdom, "hp": hp, "image": image, "level": level, "name": name, "spell": spell, "armor": armor}
+globals.update(character().cvars)
+for i in c.attacks:
+	if any([j in i.name.lower() for j in ["bow", "javelin", "spear", "trident", "gun", "yklwa"]]):
+		ibonus = i.raw.automation[0].effects[0].attackBonus
+		for g in globals:
+			ibonus = ibonus.replace(g, str(globals[g]))
+		abonus = vroll(ibonus)
+		huntlist.append(abonus.total)
+		attacklist.append(i.name)
+if len(huntlist) == 0:
+	attackname = 'Generic Attack'
+	attBonus = dexterityMod + proficiencyBonus
+else:
+	maxbonus = max(huntlist)
+	ind = huntlist.index(maxbonus)
+	attackname = attacklist[ind]
+	attBonus = maxbonus
+kill_string = ["1d20", "2d20kh1", "3d20kh1", "2d20kl1"][attackadv] + ("+1d4[bless]" if parse.get("bless") else "") + ('ro'+rr_num if rr_num else '')
+kill_check = vroll(f'{kill_string}+{attBonus}{misc_bonus}{kill_bonus}')
+
+# Establish the nature harvest check
+hab = cs.survival
+hskill = "Survival"
+hmc = (10 if c.csettings.get("talent", False) and hab.prof else None)
+harvest_string = hab.d20(har, rr_num, hmc) + ("+1d4[guidance]" if parse.get("guidance") else "") + misc_bonus + harv_bonus
+harvest_check = vroll(harvest_string)
+
+# Process the harvest check, even if things weren't caught
+if "wanderer" in backfeat.lower():
+	min_harvest = min(max_weight, 6)
+	harv_mod = True
+harv_percent = min(floor(harvest_check.total/max_DC*100),100)
+harvest = max(floor(harv_percent/100*max_weight),min_harvest)
+
+# Find a good spot (or not), catch it (or not), harvest it and add to bag (or not)
+if find_check.total >= find_dc:
+	base += f''' -f "You managed to find some game!|**DC {find_dc}**{nl}**{fskill}:** {find_check}{nl}You {'are hunting for' if specific_species else 'end up finding'}: **{'** or **'.join(specific_species) if specific_species else species}**{nl+information if information else ''}"'''
+	deposit = meat_replace if meat_replace else species
+	if (kill_check.result.crit == 1) or ((kill_check.total >= kill_ac) and (int(kill_check.result.crit) != 2)) and (targeted == None or targeted == True):
+		base += f''' -f "You killed it!|**AC {kill_ac}**{nl}**{attackname}:** {kill_check}"'''
+		if harvesting:
+			dumb = '\*'
+			base += f''' -f "Time to gut and harvest|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ""}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
+		else:
+			base += f''' -f "Not really though|You could have if you wanted to. You're a good person. Thank you for not overhunting."'''
+			base += f''' -footer "{ctx.prefix}hunting help | @CuratedPip"'''
+	elif targeted == False:
+		base += f''' -f "Not what you were hunting for|You were hunting for **{'** or **'.join(specific_species)}** but all you found was **{species}**. Better luck next time."'''
+		base += f''' -footer "{ctx.prefix}hunting help | @CuratedPip"'''
+	else:
+		base += f''' -f "You missed!|**AC {kill_ac}**{nl}**{attackname}:** {kill_check}"'''
+		base += f''' -footer "{ctx.prefix}hunting help | @CuratedPip"'''
+elif find_dc >= 60 and find_check.total < find_dc:
+	base += f''' -f "There was nothing here!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
+else:
+	base += f''' -f "You couldn't find anything!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
+	base += f''' -footer "{ctx.prefix}hunting help | @CuratedPip"'''
+
+
+return base
+</drac2>
