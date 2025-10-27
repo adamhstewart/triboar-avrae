@@ -17,7 +17,7 @@ minimum_check = a.last('mc', None, int) or (10 if ch.csettings.get("talent", Fal
 
 # put all those arguments in the proper places in our d20() function, inside a vroll().
 r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
-g = vroll(f"{r.total}d4")
+g = vroll(f"{r.total}d4/2")
 # return our roll, replacing the camelCase skill names with plain text.
 base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"'''
 base += f''' -f "Your earnings roll:\n{g}"'''
