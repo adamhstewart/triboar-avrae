@@ -20,10 +20,10 @@ r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
 g = vroll(f"{r.total}d4/2")
 
 # Add gold to bag using baglib
-using(baglib="4119d62e-6a98-4153-bea9-0a99bb36da2c")
-bags = baglib.LoadedBags()
-bags.modify_coins(coin="gp", quantity=g.total)
-bags.save_bags()
+using(baglib='4119d62e-6a98-4153-bea9-0a99bb36da2c')
+loaded_bags = baglib.LoadedBags()
+loaded_bags.modify_coins(coin="gp", quantity=g.total)
+loaded_bags.save_bags()
 
 # return our roll, replacing the camelCase skill names with plain text.
 base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"'''
