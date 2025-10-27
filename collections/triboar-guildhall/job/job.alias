@@ -4,7 +4,9 @@ ch=character()
 
 # grab the first argument and match it to a skill or default to perception.  Use `.replace()` to pull out any spaces and `.lower()` to make everything lowercase in case someone enters "SleighT of Hand".  Skip this line if you are using a specific skill, and enter the skill manually: skill = 'sleightOfHand', or use your own list of skills: ([x for x in ['stealth', 'animalHandling'] if '&1&'.lower().replace(' ','') in x.lower()]+['stealth'])[0]
 
-skill = ([x for x,y in ch.skills if '&1&'.lower().replace(' ','') in x.lower()]+['perception'])[0]
+skill_list = [x for x,y in ch.skills if '&1&'.lower().replace(' ','') in x.lower()]+['perception']
+skill = skill_list[0]
+return f"DEBUG: skill={skill}, skill_list={skill_list}"
 
 # construct our skill roll, adding prof or exp automatically via .d20(), rerolling 1s for Halfling Luck, applying Reliable Talent if prof, along with parsing for adv/dis and bonuses from our args.
 
