@@ -23,6 +23,4 @@ g = vroll(d4, r,)
 # return our roll, replacing the camelCase skill names with plain text.
 return f"Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"
 return f"Your earnings:\n{g}gp"
-
-
 </drac2>
