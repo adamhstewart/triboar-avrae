@@ -25,9 +25,12 @@ loaded_bags = baglib.LoadedBags()
 loaded_bags.modify_coins(coin="gp", quantity=g.total)
 loaded_bags.save_bags()
 
+# Get coin purse display
+coin_display = ' '.join(loaded_bags.display_coins(compact=True))
+
 # return our roll, replacing the camelCase skill names with plain text.
 base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"'''
-base += f''' -f "You earned \n**{g.total}gp**"'''
+base += f''' -f "Coin Purse|{coin_display}"'''
 
 return base
 
