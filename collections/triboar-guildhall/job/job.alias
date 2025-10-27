@@ -20,7 +20,7 @@ r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
 g = vroll(f"{r.total}d4/2")
 
 # Add gold to bag using baglib
-using(baglib='4119d62e-6a98-4153-bea9-0a99bb36da2c')
+using(baglib='5f1ffcbf-3f59-4396-b402-1ca0f02d6bbb')
 loaded_bags = baglib.LoadedBags()
 loaded_bags.modify_coins(coin="gp", quantity=g.total)
 loaded_bags.save_bags()
