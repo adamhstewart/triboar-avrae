@@ -3,6 +3,15 @@ a =argparse(&ARGS&)
 ch=character()
 base = f'''embed -title "{name} goes to work!" -color {color} -thumb {image} -desc "Your job requires skill."'''
 
+# Check daily cooldown
+timezone_offset = int(get_uvar('timezone', '0'))
+current_time = int(time())
+current_day = floor((current_time + timezone_offset * 3600) / 86400)
+last_job = int(ch.get_cvar('lastJob', '0'))
+last_job_day = floor((last_job + timezone_offset * 3600) / 86400)
+
+if current_day <= last_job_day:
+    return f'''embed -title "{name} can't work yet!" -color {color} -desc "You've already worked today. Come back tomorrow!" -footer "Resets at midnight in your timezone"'''
 
 # grab the first argument and match it to a skill or default to perception.  Use `.replace()` to pull out any spaces and `.lower()` to make everything lowercase in case someone enters "SleighT of Hand".  Skip this line if you are using a specific skill, and enter the skill manually: skill = 'sleightOfHand', or use your own list of skills: ([x for x in ['stealth', 'animalHandling'] if '&1&'.lower().replace(' ','') in x.lower()]+['stealth'])[0]
 
@@ -24,6 +33,9 @@ using(baglib='5f1ffcbf-3f59-4396-b402-1ca0f02d6bbb')
 loaded_bags = baglib.LoadedBags()
 loaded_bags.modify_coins(coin="gp", quantity=g.total)
 loaded_bags.save_bags()
+
+# Update last job timestamp
+ch.set_cvar('lastJob', str(current_time))
 
 # Get coin purse display
 coin_display = ' '.join(loaded_bags.display_coins(compact=True))
