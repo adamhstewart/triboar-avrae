@@ -18,6 +18,13 @@ minimum_check = a.last('mc', None, int) or (10 if ch.csettings.get("talent", Fal
 # put all those arguments in the proper places in our d20() function, inside a vroll().
 r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
 g = vroll(f"{r.total}d4/2")
+
+# Add gold to bag using baglib
+using(baglib="4119d62e-6a98-4153-bea9-0a99bb36da2c")
+bags = baglib.LoadedBags()
+bags.modify_coins(coin="gp", quantity=g.total)
+bags.save_bags()
+
 # return our roll, replacing the camelCase skill names with plain text.
 base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"'''
 base += f''' -f "You earned \n**{g.total}gp**"'''
