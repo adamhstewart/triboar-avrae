@@ -18,8 +18,8 @@ minimum_check = a.last('mc', None, int) or (10 if ch.csettings.get("talent", Fal
 r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
 
 ## calculate gold earned
-gold_string = f"{r.total}d4"
-g = vroll(gold_string)
+## gold_string = f"{r.total}d4"
+g = vroll('14d4')
 
 # return our roll, replacing the camelCase skill names with plain text.
 return f"Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}\nYour earnings:\n{g}gp"
