@@ -20,5 +20,6 @@ r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
 
 # return our roll, replacing the camelCase skill names with plain text.
 base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"'''
+return base
 
 </drac2>
