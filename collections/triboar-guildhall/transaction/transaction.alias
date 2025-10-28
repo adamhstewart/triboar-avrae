@@ -68,14 +68,13 @@ transaction_summary = '\n'.join(transaction_lines)
 
 # Build character sheet URL
 sheet_types = {
-    'ddb': {'url': 'https://www.dndbeyond.com/characters/'},
-    'google': {'url': 'https://docs.google.com/spreadsheets/d/'},
-    'gsheet': {'url': 'https://docs.google.com/spreadsheets/d/'}
+    'ddb': 'https://www.dndbeyond.com/characters/',
+    'google': 'https://docs.google.com/spreadsheets/d/',
+    'gsheet': 'https://docs.google.com/spreadsheets/d/'
 }
-sheet_url = sheet_types[ch.sheet_type].url + ch.upstream.replace(ch.sheet_type + '-', '') if ch.sheet_type in sheet_types else ''
-url_param = f'-url "{sheet_url}"' if sheet_url else ''
+sheet_url = sheet_types[ch.sheet_type] + ch.upstream.replace(ch.sheet_type + '-', '')
 
-output = f'''embed -title "{name}'s Transaction" -color {color} -thumb {image} -desc "{description}" {url_param}'''
+output = f'''embed -title "{name}'s Transaction" -color {color} -thumb {image} -desc "{description}" -url "{sheet_url}"'''
 output += f''' -f "Changes:|{transaction_summary}"'''
 output += f''' {coin_display}'''
 output += tool_check.embed_tool_fields()
