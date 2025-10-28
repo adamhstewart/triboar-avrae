@@ -4,7 +4,7 @@ ch = character()
 
 # Display help if requested.
 if &ARGS& and &ARGS&[0].lower() in ['help', '?']:
-    return f'''embed -title "Job Alias Help" -color {color} -desc "Work a job to earn gold!" -f "Usage|`{ctx.prefix}job [skill]`\n\nRoll a skill check to work a job. The better your roll, the more gold you earn!\n\nIf no skill is specified, Perception is used by default." -f "Cooldown|You can only work once per day. Resets at midnight in your timezone (set with `!uvar timezone <UTC_offset>`)." -f "Examples|`{ctx.prefix}job` - Work using Perception\n`{ctx.prefix}job sleight` - Work using Sleight of Hand\n`{ctx.prefix}job investigation` - Work using Investigation" -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
+    return f'''embed -title "Job Alias Help" -color {color} -desc "Work a job to earn gold!" -f "Usage|`{ctx.prefix}job [skill]`\n\nRoll a skill check to work a job. The better your roll, the more gold you earn!\n\nIf no skill is specified, Perception is used by default." -f "Cooldown|You can only work once per day. Resets at midnight in your timezone (set with `{ctx.prefix}timezone <UTC_offset>`)." -f "Examples|`{ctx.prefix}job` - Work using Perception\n`{ctx.prefix}job sleight` - Work using Sleight of Hand\n`{ctx.prefix}job investigation` - Work using Investigation" -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
 
 # Check daily cooldown (resets at midnight in user's timezone).
 timezone_offset = int(get_uvar('timezone', '0'))  # UTC offset in hours
