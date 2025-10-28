@@ -74,8 +74,9 @@ sheet_types = {
     'gsheet': 'https://docs.google.com/spreadsheets/d/'
 }
 sheet_url = sheet_types.get(ch.sheet_type, '') + ch.upstream.replace(ch.sheet_type + '-', '') if ch.sheet_type in sheet_types else ''
+desc_with_link = f"{description}\n\n[View Character Sheet]({sheet_url})" if sheet_url else description
 
-output = f'''embed -title "{name}'s Transaction" -color {color} -thumb {image} -desc "{description}" -url "{sheet_url}"'''
+output = f'''embed -title "{name}'s Transaction" -color {color} -thumb {image} -desc "{desc_with_link}"'''
 output += f''' -f "Changes:|{transaction_summary}"'''
 output += f''' {coin_display}'''
 output += tool_check.embed_tool_fields()
