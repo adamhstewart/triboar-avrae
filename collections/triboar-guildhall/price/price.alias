@@ -40,6 +40,7 @@ if len(matches) == 1:
     output += f''' -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
     return output
 
+
 # Multiple matches - show list
 match_list = '\\n'.join([f"• **{item['name']}** ({item['rarity']}) - {item['cost']}" for item in matches])
 return f'''embed -title "Multiple Items Found" -color {color} -desc "Found {len(matches)} items matching **{search_term}**:\\n\\n{match_list}\\n\\nPlease be more specific." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''

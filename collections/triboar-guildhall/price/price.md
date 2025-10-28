@@ -18,6 +18,7 @@ Look up item prices, rarity, type, and crafting information from the approved it
 - **Crafting Info**: Displays if an item is craftable and what tools are required
 - **Large Database**: 800+ approved items from the Triboar Guildhall
 
+
 ## Dependencies
 
 - **item-prices gvar**: Contains the full item database (813 items)
