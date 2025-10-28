@@ -1,0 +1,47 @@
+<drac2>
+a = argparse(&ARGS&)
+ch = character()
+
+# Display help if requested
+if not &ARGS& or &ARGS&[0].lower() in ['help', '?']:
+    return f'''embed -title "Price Lookup Help" -color {color} -desc "Look up item prices and crafting information!" -f "Usage|`{ctx.prefix}price <item name>`\\n\\nSearch for an item to view its name, type, rarity, cost, and crafting requirements." -f "Examples|`{ctx.prefix}price Bag of Holding`\\n`{ctx.prefix}price Potion of Healing`\\n`{ctx.prefix}price Longsword`" -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+
+# Get search term
+search_term = ' '.join(&ARGS&).lower()
+
+# Load item database from gvar
+items_data = load_json(get_gvar('ITEM_PRICES_GVAR_ID'))
+
+# Search for matching items
+matches = [item for item in items_data if search_term in item['name'].lower()]
+
+# No matches found
+if not matches:
+    return f'''embed -title "No Items Found" -color {color} -desc "No items found matching **{search_term}**\\n\\nTry a different search term or use `{ctx.prefix}price help` for usage information." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+
+# Too many matches
+if len(matches) > 10:
+    match_list = '\\n'.join([f"• {item['name']}" for item in matches[:10]])
+    return f'''embed -title "Too Many Results" -color {color} -desc "Found {len(matches)} items matching **{search_term}**. Showing first 10:\\n\\n{match_list}\\n\\n*...and {len(matches) - 10} more*\\n\\nPlease refine your search." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+
+# Single match - show full details
+if len(matches) == 1:
+    item = matches[0]
+    tools_display = ', '.join(item['tools']) if item['tools'] else 'N/A'
+    craftable_display = 'Yes' if item['craftable'] else 'No'
+
+    output = f'''embed -title "{item['name']}" -color {color} -thumb {image}'''
+    output += f''' -f "Type|{item['type']}"'''
+    output += f''' -f "Rarity|{item['rarity']}"'''
+    output += f''' -f "Cost|{item['cost']}"'''
+    output += f''' -f "Craftable|{craftable_display}"'''
+    if item['craftable'] and item['tools']:
+        output += f''' -f "Tools Required|{tools_display}"'''
+    output += f''' -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+    return output
+
+# Multiple matches - show list
+match_list = '\\n'.join([f"• **{item['name']}** ({item['rarity']}) - {item['cost']}" for item in matches])
+return f'''embed -title "Multiple Items Found" -color {color} -desc "Found {len(matches)} items matching **{search_term}**:\\n\\n{match_list}\\n\\nPlease be more specific." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+
+</drac2>
