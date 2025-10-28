@@ -23,7 +23,7 @@ Record transactions and update your coin purse with support for all D&D currency
 ## Dependencies
 
 - **baglib**: `5f1ffcbf-3f59-4396-b402-1ca0f02d6bbb`
-- **tool_check module**: `1f8a8dc9-6e3a-4105-aef8-3e63bd20d9aa`
+- **tool_check module**: `6251e20c-7545-4c63-92af-31e0745f2b0c`
 
 ## Examples
 

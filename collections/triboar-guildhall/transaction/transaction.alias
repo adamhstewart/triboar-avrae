@@ -50,7 +50,7 @@ for currency, amount in transactions.items():
 loaded_bags.save_bags()
 
 # Load tool module for display
-using(tool_check='1f8a8dc9-6e3a-4105-aef8-3e63bd20d9aa')
+using(tool_check='6251e20c-7545-4c63-92af-31e0745f2b0c')
 
 # Build embed with transaction details and coin purse
 coin_display = ' '.join(loaded_bags.display_coins(compact=False))
