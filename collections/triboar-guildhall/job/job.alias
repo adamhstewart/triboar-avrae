@@ -50,7 +50,7 @@ ch.set_cvar('lastJob', str(current_time))
 # Build embed with skill roll result, earnings, and updated coin purse.
 coin_display = ' '.join(loaded_bags.display_coins(compact=True))
 skill_display = skill.replace('H', ' H').replace('sleightOf', 'sleight of').replace('O', ' O').title().replace(' Of ', ' of ')
-output += f''' -f "{skill_display} Roll:|{r}\n\nYou earned **{g.total}gp!**"'''
+output += f''' -f "{skill_display} Roll: {r}\n\nYou earned **{g.total}gp!**"'''
 output += f''' {coin_display}'''
 output += f''' -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
 
