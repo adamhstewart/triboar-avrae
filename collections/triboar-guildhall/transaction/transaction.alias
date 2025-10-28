@@ -4,8 +4,8 @@ ch = character()
 
 # Display help if requested
 if not &ARGS& or &ARGS&[0].lower() in ['help', '?']:
-    help_examples = f"`{ctx.prefix}transaction 4x Potions of Healing -50gp -50gp -50gp -50gp`\n`{ctx.prefix}transaction Sold old armor 25gp`\n`{ctx.prefix}transaction Mixed payment -10gp -50sp 5cp`"
-    return f'''embed -title "Transaction Alias Help" -color {color} -desc "Record a transaction and update your coin purse!" -f "Usage|`{ctx.prefix}transaction <description> -cost1 -cost2 ...`\n\nRecord a transaction with any number of costs or gains. Positive values add currency, negative values subtract.\n\nSupported currencies: `cp`, `sp`, `ep`, `gp`, `pp` (defaults to `gp` if no unit specified)." -f "Examples|{help_examples}" -footer "{ctx.prefix}transaction help | Triboar Guildhall Collection"'''
+    help_examples = f'`{ctx.prefix}transaction "4x Potions of Healing" -50gp -50gp -50gp -50gp`\\n`{ctx.prefix}transaction "Sold old armor" 25gp`\\n`{ctx.prefix}transaction "Mixed payment" -10gp -50sp 5cp`'
+    return f'''embed -title "Transaction Alias Help" -color {color} -desc "Record a transaction and update your coin purse!" -f "Usage|`{ctx.prefix}transaction <description> -cost1 -cost2 ...`\\n\\nRecord a transaction with any number of costs or gains. Positive values add currency, negative values subtract.\\n\\nSupported currencies: `cp`, `sp`, `ep`, `gp`, `pp` (defaults to `gp` if no unit specified)." -f "Examples|{help_examples}" -footer "{ctx.prefix}transaction help | Triboar Guildhall Collection"'''
 
 # Get transaction description
 description = a.last('d') or a.last('desc') or (str(&ARGS&[0]) if &ARGS& else "Transaction")
@@ -66,7 +66,15 @@ for currency in currency_units:
 
 transaction_summary = '\n'.join(transaction_lines)
 
-output = f'''embed -title "{name}'s Transaction" -color {color} -thumb {image} -desc "{description}" -url {character().sheet_url}'''
+# Build character sheet URL
+sheet_types = {
+    'ddb': {'url': 'https://www.dndbeyond.com/characters/'},
+    'google': {'url': 'https://docs.google.com/spreadsheets/d/'},
+    'gsheet': {'url': 'https://docs.google.com/spreadsheets/d/'}
+}
+sheet_url = sheet_types[ch.sheet_type].url + ch.upstream.replace(ch.sheet_type + '-', '') if ch.sheet_type in sheet_types else ''
+
+output = f'''embed -title "{name}'s Transaction" -color {color} -thumb {image} -desc "{description}" -url {sheet_url}'''
 output += f''' -f "Changes:|{transaction_summary}"'''
 output += f''' {coin_display}'''
 output += tool_check.embed_tool_fields()
