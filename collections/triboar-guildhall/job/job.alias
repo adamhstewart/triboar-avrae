@@ -17,7 +17,7 @@ if current_day <= last_job_day:
 skill = ([x for x,y in ch.skills if '&1&'.lower().replace(' ','') in x.lower()]+['perception'])[0]
 
 # Load job descriptions from gvar/svar
-job_descriptions = load_json(get_svar('jobDescriptions', get_gvar('job-descriptions')))
+job_descriptions = load_json(get_svar('jobDescriptions', get_gvar('fa47e34f-99b2-4ddf-82a5-302b72010059')))
 descriptions = job_descriptions.get(skill, ["worked hard."])
 job_desc = "Today you " + descriptions[randint(len(descriptions))]
 
