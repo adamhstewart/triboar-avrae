@@ -1,9 +1,13 @@
 <drac2>
-a =argparse(&ARGS&)
-ch=character()
+a = argparse(&ARGS&)
+ch = character()
 
-# Check daily cooldown
-timezone_offset = int(get_uvar('timezone', '0'))
+# Display help if requested.
+if &ARGS& and &ARGS&[0].lower() in ['help', '?']:
+    return f'''embed -title "Job Alias Help" -color {color} -desc "Work a job to earn gold!" -f "Usage|`{ctx.prefix}job [skill]`\n\nRoll a skill check to work a job. The better your roll, the more gold you earn!\n\nIf no skill is specified, Perception is used by default." -f "Cooldown|You can only work once per day. Resets at midnight in your timezone (set with `!uvar timezone <UTC_offset>`)." -f "Examples|`{ctx.prefix}job` - Work using Perception\n`{ctx.prefix}job sleight` - Work using Sleight of Hand\n`{ctx.prefix}job investigation` - Work using Investigation" -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
+
+# Check daily cooldown (resets at midnight in user's timezone).
+timezone_offset = int(get_uvar('timezone', '0'))  # UTC offset in hours
 current_time = int(time())
 current_day = floor((current_time + timezone_offset * 3600) / 86400)
 last_job = int(ch.get_cvar('lastJob', '0'))
@@ -12,44 +16,43 @@ last_job_day = floor((last_job + timezone_offset * 3600) / 86400)
 if current_day <= last_job_day:
     return f'''embed -title "{name} can't work yet!" -color {color} -thumb {image} -desc "You've already worked today. Come back tomorrow!" -footer "Resets at midnight in your timezone"'''
 
-# grab the first argument and match it to a skill or default to perception.  Use `.replace()` to pull out any spaces and `.lower()` to make everything lowercase in case someone enters "SleighT of Hand".  Skip this line if you are using a specific skill, and enter the skill manually: skill = 'sleightOfHand', or use your own list of skills: ([x for x in ['stealth', 'animalHandling'] if '&1&'.lower().replace(' ','') in x.lower()]+['stealth'])[0]
+# Match first argument to a skill, default to perception.
+skill = ([x for x, y in ch.skills if '&1&'.lower().replace(' ', '') in x.lower()] + ['perception'])[0]
 
-skill = ([x for x,y in ch.skills if '&1&'.lower().replace(' ','') in x.lower()]+['perception'])[0]
-
-# Load job descriptions from gvar/svar
-job_descriptions = load_json(get_svar('jobDescriptions', get_gvar('fa47e34f-99b2-4ddf-82a5-302b72010059')))
+# Load random job description based on skill (svar overrides gvar).
+job_desc_data = get_svar('jobDescriptions', get_gvar('fa47e34f-99b2-4ddf-82a5-302b72010059'))
+if job_desc_data:
+    job_descriptions = load_json(job_desc_data)
 descriptions = job_descriptions.get(skill, ["worked hard."])
 job_desc = "Today you " + descriptions[randint(len(descriptions))]
+else:
+    job_desc = "Your job requires skill."
 
 base = f'''embed -title "{name} goes to work!" -color {color} -thumb {image} -desc "{job_desc}"'''
 
-# construct our skill roll, adding prof or exp automatically via .d20(), rerolling 1s for Halfling Luck, applying Reliable Talent if prof, along with parsing for adv/dis and bonuses from our args.
-# grab the reroll number if the character has the csetting reroll or default to None
+# Perform skill check with character features (rerolls, reliable talent, etc.).
 reroll_number = ch.csettings.get("reroll", None)
-
-# grab a minimum from our args like a standard !check, (-mc #) or set it to 10 if the character has the csetting 'talent' set to True and has proficiency or expertise in the chosen skill.
-minimum_check = a.last('mc', None, int) or (10 if ch.csettings.get("talent", False) and ch.skills[skill].prof>=1 else None)
-
-# put all those arguments in the proper places in our d20() function, inside a vroll().
+minimum_check = a.last('mc', None, int) or (10 if ch.csettings.get("talent", False) and ch.skills[skill].prof >= 1 else None)
 r = vroll(ch.skills[skill].d20(None, reroll_number, minimum_check))
+
+# Calculate gold earned: (roll_total)d4/2.
 g = vroll(f"{r.total}d4/2")
 
-# Add gold to bag using baglib
+# Add earned gold to coin purse via baglib.
 using(baglib='5f1ffcbf-3f59-4396-b402-1ca0f02d6bbb')
 loaded_bags = baglib.LoadedBags()
 loaded_bags.modify_coins(coin="gp", quantity=g.total)
 loaded_bags.save_bags()
 
-# Update last job timestamp
+# Update cooldown timestamp.
 ch.set_cvar('lastJob', str(current_time))
 
-# Get coin purse display
+# Build embed with skill roll result, earnings, and updated coin purse.
 coin_display = ' '.join(loaded_bags.display_coins(compact=True))
-
-# return our roll, replacing the camelCase skill names with plain text.
-base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:\n{r}"'''
+base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:|{r}"'''
 base += f''' -f "You earned:|**{g.total}gp**"'''
 base += f''' {coin_display}'''
+base += f''' -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
 
 return base
 
