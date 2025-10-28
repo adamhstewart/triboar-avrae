@@ -2,6 +2,11 @@
 a = argparse(&ARGS&)
 ch = character()
 
+# Check if command is run in the correct channel
+allowed_channel = "1432010748032188517"
+if str(ctx.channel.id) != allowed_channel:
+    return f'''embed -title "Wrong Channel!" -color {color} -desc "This command can only be used in <#{allowed_channel}>." -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
+
 # Display help if requested.
 if &ARGS& and &ARGS&[0].lower() in ['help', '?']:
     return f'''embed -title "Job Alias Help" -color {color} -desc "Work a job to earn gold!" -f "Usage|`{ctx.prefix}job [skill]`\n\nRoll a skill check to work a job. The better your roll, the more gold you earn!\n\nIf no skill is specified, Perception is used by default." -f "Cooldown|You can only work once per day. Resets at midnight in your timezone (set with `{ctx.prefix}timezone <UTC_offset>`)." -f "Examples|`{ctx.prefix}job` - Work using Perception\n`{ctx.prefix}job sleight` - Work using Sleight of Hand\n`{ctx.prefix}job investigation` - Work using Investigation" -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
