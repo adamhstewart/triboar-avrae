@@ -23,8 +23,8 @@ skill = ([x for x, y in ch.skills if '&1&'.lower().replace(' ', '') in x.lower()
 job_desc_data = get_svar('jobDescriptions', get_gvar('fa47e34f-99b2-4ddf-82a5-302b72010059'))
 if job_desc_data:
     job_descriptions = load_json(job_desc_data)
-descriptions = job_descriptions.get(skill, ["worked hard."])
-job_desc = "Today you " + descriptions[randint(len(descriptions))]
+    descriptions = job_descriptions.get(skill, ["worked hard."])
+    job_desc = "Today you " + descriptions[randint(len(descriptions))]
 else:
     job_desc = "Your job requires skill."
 
