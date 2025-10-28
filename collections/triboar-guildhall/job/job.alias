@@ -14,7 +14,7 @@ last_job = int(ch.get_cvar('lastJob', '0'))
 last_job_day = floor((last_job + timezone_offset * 3600) / 86400)
 
 if current_day <= last_job_day:
-    return f'''embed -title "{name} can't work yet!" -color {color} -thumb {image} -desc "You've already worked today. Come back tomorrow!" -footer "Resets at midnight in your timezone"'''
+    return f'''embed -title "{name} can't work yet!" -color {color} -thumb {image} -desc "You've already worked today. Come back tomorrow!" -footer "Resets at midnight in your timezone" -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
 
 # Match first argument to a skill, default to perception.
 skill = ([x for x, y in ch.skills if '&1&'.lower().replace(' ', '') in x.lower()] + ['perception'])[0]
@@ -28,7 +28,7 @@ if job_desc_data:
 else:
     job_desc = "Your job requires skill."
 
-base = f'''embed -title "{name} goes to work!" -color {color} -thumb {image} -desc "{job_desc}"'''
+output = f'''embed -title "{name} goes to work!" -color {color} -thumb {image} -desc "{job_desc}"'''
 
 # Perform skill check with character features (rerolls, reliable talent, etc.).
 reroll_number = ch.csettings.get("reroll", None)
@@ -49,11 +49,12 @@ ch.set_cvar('lastJob', str(current_time))
 
 # Build embed with skill roll result, earnings, and updated coin purse.
 coin_display = ' '.join(loaded_bags.display_coins(compact=True))
-base += f''' -f "Your {skill.replace('H', ' h').replace('O', ' o')} roll:|{r}"'''
-base += f''' -f "You earned:|**{g.total}gp**"'''
-base += f''' {coin_display}'''
-base += f''' -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
+skill_display = skill.replace('H', ' H').replace('sleightOf', 'sleight of').replace('O', ' O')
+output += f''' -f "{skill_display} roll: {r}"'''
+output += f''' -f "You earned **{g.total}gp!**"'''
+output += f''' {coin_display}'''
+output += f''' -footer "{ctx.prefix}job help | Triboar Guildhall Collection"'''
 
-return base
+return output
 
 </drac2>
