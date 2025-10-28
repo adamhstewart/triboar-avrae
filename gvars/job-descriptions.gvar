@@ -1,0 +1,110 @@
+{
+  "athletics": [
+    "helped unload cargo at the docks and wrestled heavy barrels into place.",
+    "cleared boulders and fallen trees from a trade road.",
+    "competed in a local strong-arm contest and impressed the crowd.",
+    "plowed fields and carried sacks of grain until dusk."
+  ],
+  "acrobatics": [
+    "performed daring tumbles and flips for a festival audience.",
+    "balanced on rooftops to hang lanterns over the market square.",
+    "leapt between wagons to rescue a loose banner in the wind.",
+    "entertained townsfolk with an impromptu acrobatic show."
+  ],
+  "sleightOfHand": [
+    "crafted delicate clockwork trinkets for a local tinkerer.",
+    "amazed bystanders with clever street magic and quick hands.",
+    "repaired intricate lock mechanisms for a locksmith's shop.",
+    "demonstrated nimble hands while helping a jeweler set fine gems."
+  ],
+  "stealth": [
+    "shadowed suspicious figures through narrow alleys.",
+    "delivered secret messages unseen across the city.",
+    "scouted a guarded compound without drawing notice.",
+    "helped the watch uncover a smuggler's route by staying unseen."
+  ],
+  "arcana": [
+    "assisted a wizard in cataloging ancient spell scrolls.",
+    "examined enchanted relics for traces of lingering magic.",
+    "brewed experimental potions under careful supervision.",
+    "translated obscure runes for the local sage."
+  ],
+  "history": [
+    "restored a damaged manuscript in the temple archives.",
+    "copied ancient records for a scholar's research.",
+    "shared stories of forgotten heroes at the tavern.",
+    "verified the lineage of a local noble family."
+  ],
+  "investigation": [
+    "examined a crime scene to uncover a missing clue.",
+    "helped the city watch solve a recent burglary.",
+    "tracked the source of a counterfeit coin operation.",
+    "studied footprints and tool marks to identify a thief."
+  ],
+  "nature": [
+    "gathered rare herbs for the apothecary.",
+    "guided travelers safely through wild terrain.",
+    "documented new animal tracks for a ranger's ledger.",
+    "taught villagers how to identify edible plants."
+  ],
+  "religion": [
+    "assisted the clergy in performing sacred rites.",
+    "copied devotional texts for temple archives.",
+    "tended the shrine and offered blessings to visitors.",
+    "comforted townsfolk seeking guidance and prayer."
+  ],
+  "animalHandling": [
+    "trained stubborn mules to follow simple commands.",
+    "calmed a frightened ox team in the marketplace.",
+    "cared for sick hounds at the ranger's kennel.",
+    "broke a new horse for a local farmer."
+  ],
+  "insight": [
+    "mediated a dispute between rival shopkeepers.",
+    "read subtle tells during a merchant negotiation.",
+    "offered advice to a nervous apprentice before an exam.",
+    "sensed deceit in a deal and protected an honest buyer."
+  ],
+  "medicine": [
+    "treated the sick and injured at the infirmary.",
+    "brewed poultices and salves for the healer's hut.",
+    "set a broken bone and earned grateful thanks.",
+    "assisted in delivering a healthy newborn."
+  ],
+  "perception": [
+    "served as a lookout along the city walls.",
+    "spotted danger on the trail before it reached the caravan.",
+    "noticed faint tracks leading toward the forest edge.",
+    "guided travelers by keen observation and steady focus."
+  ],
+  "survival": [
+    "hunted game to supply meat for the local inn.",
+    "tracked a dangerous beast through dense woods.",
+    "led a lost merchant back to safety.",
+    "gathered firewood and wild berries for the camp."
+  ],
+  "deception": [
+    "sold 'authentic' relics to gullible tourists.",
+    "performed sleight-of-tongue tricks to amuse a crowd.",
+    "bluffed your way past a suspicious guard.",
+    "spun a convincing tale that earned you free drinks."
+  ],
+  "intimidation": [
+    "guarded a caravan and scared off would-be bandits.",
+    "collected overdue debts for a merchant guild.",
+    "kept peace in a rough tavern with your presence alone.",
+    "silenced a heckler with a single glare."
+  ],
+  "performance": [
+    "sang ballads for tips at the tavern.",
+    "played your instrument at a noble's feast.",
+    "juggled knives and flames for a lively street crowd.",
+    "performed a dramatic monologue to entertain travelers."
+  ],
+  "persuasion": [
+    "negotiated a fair deal between rival traders.",
+    "rallied townsfolk to support a local cause.",
+    "convinced a guard to allow safe passage.",
+    "secured new patrons for the guild through charm and grace."
+  ]
+}

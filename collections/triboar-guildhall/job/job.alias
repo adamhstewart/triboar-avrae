@@ -1,7 +1,6 @@
 <drac2>
 a =argparse(&ARGS&)
 ch=character()
-base = f'''embed -title "{name} goes to work!" -color {color} -thumb {image} -desc "Your job requires skill."'''
 
 # Check daily cooldown
 timezone_offset = int(get_uvar('timezone', '0'))
@@ -11,11 +10,18 @@ last_job = int(ch.get_cvar('lastJob', '0'))
 last_job_day = floor((last_job + timezone_offset * 3600) / 86400)
 
 if current_day <= last_job_day:
-    return f'''embed -title "{name} can't work yet!" -color {color} -desc "You've already worked today. Come back tomorrow!" -footer "Resets at midnight in your timezone"'''
+    return f'''embed -title "{name} can't work yet!" -color {color} -thumb {image} -desc "You've already worked today. Come back tomorrow!" -footer "Resets at midnight in your timezone"'''
 
 # grab the first argument and match it to a skill or default to perception.  Use `.replace()` to pull out any spaces and `.lower()` to make everything lowercase in case someone enters "SleighT of Hand".  Skip this line if you are using a specific skill, and enter the skill manually: skill = 'sleightOfHand', or use your own list of skills: ([x for x in ['stealth', 'animalHandling'] if '&1&'.lower().replace(' ','') in x.lower()]+['stealth'])[0]
 
 skill = ([x for x,y in ch.skills if '&1&'.lower().replace(' ','') in x.lower()]+['perception'])[0]
+
+# Load job descriptions from gvar/svar
+job_descriptions = load_json(get_svar('jobDescriptions', get_gvar('job-descriptions')))
+descriptions = job_descriptions.get(skill, ["worked hard."])
+job_desc = "Today you " + descriptions[randint(len(descriptions))]
+
+base = f'''embed -title "{name} goes to work!" -color {color} -thumb {image} -desc "{job_desc}"'''
 
 # construct our skill roll, adding prof or exp automatically via .d20(), rerolling 1s for Halfling Luck, applying Reliable Talent if prof, along with parsing for adv/dis and bonuses from our args.
 # grab the reroll number if the character has the csetting reroll or default to None
