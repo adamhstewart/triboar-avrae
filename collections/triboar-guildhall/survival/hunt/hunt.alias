@@ -15,7 +15,6 @@ backfeat = get("backgroundFeature", "")
 args = &ARGS&
 parse = argparse(args)
 percentile_species = vroll('1d100')
-loot_added = False
 misc_bonus = ""
 find_bonus = ""
 kill_bonus = ""
@@ -57,12 +56,7 @@ defaultData = {'HuntSpeciesGrasslands': '[{"species": "Quails", "weight": 3, "pe
 if len(dataSelect) > 0:
 	if args[0] in dataSelect.keys():
 		huntdata = load_json(get_svar(svarName, defaultData.get(svarName)).replace("species","s").replace("weight","w").replace("percent","p").replace("AC","a").replace("info","i").replace("meat","m"))
-settings = load_json(get_svar("SurvSettings", '{"fishFind": [10,50,80,95], "fishHarvDC": 20, "huntFind": [10,45,75,90], "huntHarvDC": 22, "foraFind": [15,40,85,90], "foraHarvDC": 17, "harvest": true, "cooldown": false, "coolTime": 0, "fishCool": false, "fishCoolTime": 0, "huntCool": false, "huntCoolTime": 0, "forageCool": false, "forageCoolTime": 0}'))
-
-if not settings.get('coolType'):
-	settings.update({"coolType": "blank"})
-
-dc_percent_list = settings.get("huntFind")
+settings = load_json(get_svar("SurvSettings", '{"fishHarvDC": 20, "huntHarvDC": 22, "foraHarvDC": 17, "harvest": true}'))
 max_DC = settings.get("huntHarvDC")
 
 # Load the species data from args, some error handling
@@ -236,7 +230,6 @@ if find_check.total >= find_dc:
 		if harvesting:
 			dumb = '\*'
 			base += f''' -f "Time to gut and harvest|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ""}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
-			c.set_cvar("lastSurvival", str(current_time))
 		else:
 			base += f''' -f "Not really though|You could have if you wanted to. You're a good person. Thank you for not overhunting."'''
 			base += f''' -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
@@ -252,6 +245,8 @@ else:
 	base += f''' -f "You couldn't find anything!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
 	base += f''' -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 
+# Set cooldown after any attempt
+c.set_cvar("lastSurvival", str(current_time))
 
 return base
 </drac2>
