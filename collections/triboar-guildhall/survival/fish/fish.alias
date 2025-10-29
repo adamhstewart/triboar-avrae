@@ -23,6 +23,13 @@ find_bonus = ""
 catch_bonus = ""
 harv_bonus = ""
 
+# Check channel restrictions
+allowed_channels = get_svar("FishChannels", "")
+if allowed_channels:
+	channel_list = [ch.strip() for ch in allowed_channels.split(",")]
+	if str(ctx.channel.id) not in channel_list:
+		err(f'''This command can only be used in designated fishing channels. Contact your server admins for details.''')
+
 # Setup error based on args
 if len(args) == 0:
 	err(f'''You must provide an argument for the type of fishing you want to do, core arguments include `river`, `lake`, and `sea`. Your server may have additional options, contact your bot gurus for details''')
