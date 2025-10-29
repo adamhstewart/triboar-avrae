@@ -2,6 +2,14 @@
 a = argparse(&ARGS&)
 ch = character()
 
+# Check if command is run in an allowed channel (optional svar restriction)
+allowed_channels_str = get_svar('transactionChannels', '')
+if allowed_channels_str:
+    allowed_channels = [c.strip() for c in allowed_channels_str.split(',')]
+    if str(ctx.channel.id) not in allowed_channels:
+        channel_mentions = ', '.join([f'<#{c}>' for c in allowed_channels])
+        return f'''embed -title "You can't make transactions here {name}!" -color {color} -desc "This command can only be used in: {channel_mentions}" -footer "{ctx.prefix}transaction help | Triboar Guildhall Collection"'''
+
 # Display help if requested
 if not &ARGS& or &ARGS&[0].lower() in ['help', '?']:
     help_examples = f'`{ctx.prefix}transaction "4x Potions of Healing" -50gp -50gp -50gp -50gp`\\n`{ctx.prefix}transaction "Sold old armor" 25gp`\\n`{ctx.prefix}transaction "Mixed payment" -10gp -50sp 5cp`'
