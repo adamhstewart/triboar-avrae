@@ -38,6 +38,10 @@ last_survival = c.get_cvar("lastSurvival", "0")
 current_time = time()
 time_since_last = current_time - float(last_survival)
 
+# Debug output
+if last_survival != "0":
+	err(f"DEBUG: last_survival={last_survival}, current_time={current_time}, time_since_last={time_since_last}, cooldown_seconds={cooldown_seconds}, should_trigger={time_since_last < cooldown_seconds}")
+
 if time_since_last < cooldown_seconds:
 	time_remaining = cooldown_seconds - time_since_last
 	hours = int(time_remaining // 3600)
