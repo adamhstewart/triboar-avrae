@@ -215,18 +215,18 @@ if find_check.total >= find_dc:
 			base += f''' -f "Time to gut and harvest|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ""}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
 		else:
 			base += f''' -f "Not really though|You could have if you wanted to. You're a good person. Thank you for not overhunting."'''
-			base += f''' -footer "{ctx.prefix}hunt help | Triboar Guildhall Collection"'''
+			base += f''' -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 	elif targeted == False:
 		base += f''' -f "Not what you were hunting for|You were hunting for **{'** or **'.join(specific_species)}** but all you found was **{species}**. Better luck next time."'''
-		base += f''' -footer "{ctx.prefix}hunt help | Triboar Guildhall Collection"'''
+		base += f''' -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 	else:
 		base += f''' -f "You missed!|**AC {kill_ac}**{nl}**{attackname}:** {kill_check}"'''
-		base += f''' -footer "{ctx.prefix}hunt help | Triboar Guildhall Collection"'''
+		base += f''' -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 elif find_dc >= 60 and find_check.total < find_dc:
 	base += f''' -f "There was nothing here!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
 else:
 	base += f''' -f "You couldn't find anything!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
-	base += f''' -footer "{ctx.prefix}hunt help | Triboar Guildhall Collection"'''
+	base += f''' -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 
 
 return base

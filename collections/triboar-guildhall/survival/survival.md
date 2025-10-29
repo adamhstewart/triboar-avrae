@@ -10,32 +10,32 @@ The survival alias provides access to three main activities:
 Hunt for game in various terrains (grasslands, mountains, forest).
 
 ```
-!hunt <terrain>
-!hunt help
+!survival hunt <terrain>
+!survival hunt help
 ```
 
 ### Fish
 Fish in different water bodies (river, lake, sea).
 
 ```
-!fish <location>
-!fish help
+!survival fish <location>
+!survival fish help
 ```
 
 ### Forage
 Forage for edible plants and food in different environments (grasslands, mountains, forest).
 
 ```
-!forage <terrain>
-!forage help
+!survival forage <terrain>
+!survival forage help
 ```
 
 ## Usage
 
 Use `!survival` to see general help, or use the individual subcommand help for detailed information:
-- `!hunt help`
-- `!fish help`
-- `!forage help`
+- `!survival hunt help`
+- `!survival fish help`
+- `!survival forage help`
 
 ## Features
 
@@ -48,8 +48,8 @@ Each survival activity involves:
 ## Examples
 
 ```
-!hunt grasslands
-!fish river
-!forage forest
+!survival hunt grasslands
+!survival fish river
+!survival forage forest
 !survival
 ```
