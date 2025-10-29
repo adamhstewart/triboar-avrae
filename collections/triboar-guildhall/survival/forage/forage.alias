@@ -31,7 +31,7 @@ if allowed_channels:
 # Check cooldown (global for all survival activities)
 cooldown_minutes = float(get_svar("SurvivalCooldown", "60"))
 cooldown_seconds = cooldown_minutes * 60
-last_survival = get("lastSurvival", "0")
+last_survival = c.get_cvar("lastSurvival", "0")
 current_time = time()
 time_since_last = current_time - float(last_survival)
 
@@ -185,7 +185,7 @@ if find_check.total >= find_dc:
 	if harvesting and (targeted == None or targeted == True):
 		dumb = '\*'
 		base += f''' -f "Time to harvest|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ""}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
-		set_uvar("lastSurvival", str(current_time))
+		c.set_cvar("lastSurvival", str(current_time))
 	elif targeted == False:
 		base += f''' -f "Not what you were foraging for|You were foraging for **{'** or **'.join(specific_species)}** but all you found was **{species}**. Better luck next time."'''
 		base += f''' -footer "{ctx.prefix}survival forage help | Triboar Guildhall Collection"'''

@@ -34,7 +34,7 @@ if allowed_channels:
 # Check cooldown (global for all survival activities)
 cooldown_minutes = float(get_svar("SurvivalCooldown", "60"))
 cooldown_seconds = cooldown_minutes * 60
-last_survival = get("lastSurvival", "0")
+last_survival = c.get_cvar("lastSurvival", "0")
 current_time = time()
 time_since_last = current_time - float(last_survival)
 
@@ -222,7 +222,7 @@ if find_check.total >= find_dc:
 			dumb = '\*'
 			base += f''' -f "Time to clean your catch|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ''}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
 			base += f''' -footer "{ctx.prefix}survival fish help | Triboar Guildhall Collection"'''
-			set_uvar("lastSurvival", str(current_time))
+			c.set_cvar("lastSurvival", str(current_time))
 		elif harvesting and targeted == False:
 			base += f''' -f "Catch and Release|You wanted to catch a **{'** or **'.join(specific_species)}** but caught **{species}** instead, so you threw it back."'''
 			base += f''' -footer "{ctx.prefix}survival fish help | Triboar Guildhall Collection"'''
