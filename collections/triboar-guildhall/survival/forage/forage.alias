@@ -1,0 +1,178 @@
+<drac2>
+
+# Setup the embed
+base = f'''embed -title "{name} goes foraging!" -color {color} -thumb {image} -desc "Foraging requires the ability to find food (survival), and the ability to harvest it (survival)."'''
+
+# Setup
+c = character()
+cs = character().skills
+rr_num = c.csettings.get("reroll", None)
+min_harvest = 1
+harv_mod = False
+harv_mult = 1
+nl = "\n"
+backfeat = get("backgroundFeature", "")
+args = &ARGS&
+parse = argparse(args)
+percentile_species = vroll('1d100')
+loot_added = False
+misc_bonus = ""
+find_bonus = ""
+harv_bonus = ""
+
+# Setup error based on args
+if len(args) == 0:
+	err(f'''You must provide an argument for the type of foraging you want to do, core arguments include `grasslands`, `mountains`, and `forest`. Your server may have additional options, contact your bot gurus for details''')
+
+# Grab svars
+dataSelect = load_json(get_svar("HuntArgs", "{}"))
+dataSelect.update({'grasslands': 'ForageSpeciesGrasslands', 'mountains': 'ForageSpeciesMountains', 'forest': 'ForageSpeciesForest'})
+svarName = dataSelect.get(args[0])
+foragedata = []
+defaultData = {'ForageSpeciesGrasslands': '[{"species": "Edible Roots", "weight": 10, "percent": 0, "SafetyDC": 10}, {"species": "Wild Grains", "weight": 8, "percent": 15, "SafetyDC": 12}, {"species": "Berries", "weight": 6, "percent": 30, "SafetyDC": 10}, {"species": "Medicinal Herbs (used for healing potions)", "weight": 4, "percent": 50, "SafetyDC": 12}, {"species": "Small Nuts or Seeds", "weight": 4, "percent": 70, "SafetyDC": 10}, {"species": "Bee Hives with Honey", "weight": 4, "percent": 85, "SafetyDC": 15}]', 'ForageSpeciesMountains': '[{"species": "Moss and Lichen", "weight": 5, "percent": 0, "SafetyDC": 10}, {"species": "Edible Fungi", "weight": 6, "percent": 15, "SafetyDC": 12}, {"species": "Edible Roots", "weight": 7, "percent": 30, "SafetyDC": 10}, {"species": "Medicinal Herbs (used for healing potions)", "weight": 4, "percent": 50, "SafetyDC": 12}, {"species": "Wild Berries", "weight": 4, "percent": 70, "SafetyDC": 12}, {"species": "Non-Medicinal Herbs", "weight": 0, "percent": 85, "SafetyDC": 14}]', 'ForageSpeciesForest': '[{"species": "Edible Mushrooms", "weight": 5, "percent": 0, "SafetyDC": 10}, {"species": "Wild Berries", "weight": 6, "percent": 15, "SafetyDC": 10}, {"species": "Nuts (Chestnuts)", "weight": 6, "percent": 30, "SafetyDC": 12}, {"species": "Medicinal Herbs (used for healing potions)", "weight": 4, "percent": 50, "SafetyDC": 12}, {"species": "Roots or Tubers", "weight": 7, "percent": 70, "SafetyDC": 10}, {"species": "Tree Sap", "weight": 2, "percent": 85, "SafetyDC": 15}]'}
+
+if len(dataSelect) > 0:
+	if args[0] in dataSelect.keys():
+		foragedata = load_json(get_svar(svarName, defaultData.get(svarName)).replace("species","s").replace("weight","w").replace("percent","p").replace("SafetyDC","a").replace("info","i").replace("meat","m"))
+settings = load_json(get_svar("SurvSettings", '{"fishFind": [10,50,80,95], "fishHarvDC": 20, "huntFind": [10,45,75,90], "huntHarvDC": 22, "foraFind": [15,40,85,90], "foraHarvDC": 20, "harvest": true, "cooldown": false, "coolTime": 0, "fishCool": false, "fishCoolTime": 0, "huntCool": false, "huntCoolTime": 0, "forageCool": false, "forageCoolTime": 0}'))
+
+if not settings.get('coolType'):
+	settings.update({"coolType": "blank"})
+
+max_DC = settings.get("foraHarvDC")
+
+# Load the species data from args, some error handling
+if len(foragedata) == 0 or len(foragedata[0]) == 0:
+	err(f'''Seems like you forgot to include an argument to determine type of foraging, your server's bot gurus have disabled {args[0]} foraging, or you've used an invalid argument. Please contact them to correct this.''')
+
+# Process bonuses from args
+bonus = parse.get('b')
+fbonus = parse.get('fb')
+hbonus = parse.get('hb')
+if "-b" in args:
+	misc_bonus += f'+{bonus[0]}'
+if "-fb" in args:
+	find_bonus += f'+{fbonus[0]}'
+if "-hb" in args:
+	harv_bonus += f'+{hbonus[0]}'
+
+# Setup advantage boolwise logic
+advbase = parse.adv(boolwise=True)
+far = parse.adv(custom={'adv': 'fadv', 'dis': 'fdis'}, boolwise=True)
+har = parse.adv(custom={'adv': 'hadv', 'dis': 'hdis'}, boolwise=True)
+if far == None and advbase != None:
+	far = advbase
+if har == None and advbase != None:
+	har = advbase
+if far == True and advbase != None:
+	if advbase == False:
+		far = None
+	else:
+		far = far
+if far == False and advbase != None:
+	if advbase == True:
+		far = None
+	else:
+		far = far
+if har == True and advbase != None:
+	if advbase == False:
+		har = None
+	else:
+		har = har
+if har == False and advbase != None:
+	if advbase == True:
+		har = None
+	else:
+		har = har
+
+# Setup settings for automatic harvesting
+harv_setting = load_json(get("huntSurvHarvesting", "true").lower())
+if harv_setting is False or settings.get('harvest') is False:
+	harvesting = False
+else:
+	harvesting = True
+
+# Help setup
+help = f'''help {ctx.alias} -here'''
+if len(args) == 1 and args[0].lower() in '?help':
+	return help
+
+# Establish DC to find foragable items
+if "grasslands" in args:
+	find_dc = 12
+elif "forest" in args:
+	find_dc = 10
+elif "mountains" in args:
+	find_dc = 15
+## We don't know.
+else:
+	find_dc = 15
+
+# Figure out which item is being foraged for
+index = 0
+specific_species = []
+for i,j in enumerate(foragedata):
+	cur_species = foragedata[i].get('s')
+	for arg in args:
+		if (arg.lower() in cur_species.lower()) and (cur_species not in specific_species):
+			specific_species.append(cur_species)
+	if percentile_species.total > foragedata[i].get('p'):
+		index += 1
+index -= 1
+
+# Load the data for that particular animal
+safety_dc = foragedata[index].get('a')
+species = foragedata[index].get('s')
+max_weight = foragedata[index].get('w')
+information = foragedata[index].get('i')
+meat_replace = foragedata[index].get('m')
+
+# Handling if someone does a specific species
+targeted = None
+if len(specific_species) > 0 and species in specific_species:
+	targeted = True
+elif len(specific_species) > 0 and species not in specific_species:
+	targeted = False
+
+# Roll the survival check to find a good spot
+fab = cs.survival
+fskill =  "Survival"
+fmc = (10 if c.csettings.get("talent", False) and fab.prof else None)
+find_string = fab.d20(far, rr_num, fmc) + ("+1d4[guidance]" if parse.get("guidance") else "") + misc_bonus + find_bonus
+find_check = vroll(find_string)
+
+# Establish the survival harvest check
+hab = cs.survival
+hskill = "Survival"
+hmc = (10 if c.csettings.get("talent", False) and hab.prof else None)
+harvest_string = hab.d20(har, rr_num, hmc) + ("+1d4[guidance]" if parse.get("guidance") else "") + misc_bonus + harv_bonus
+harvest_check = vroll(harvest_string)
+
+# Process the harvest check, even if things weren't caught
+if "wanderer" in backfeat.lower():
+	min_harvest = min(max_weight, 6)
+	harv_mod = True
+harv_percent = min(floor(harvest_check.total/max_DC*100),100)
+harvest = max(floor(harv_percent/100*max_weight),min_harvest)
+
+# Find a good spot (or not), catch it (or not), harvest it and add to bag (or not)
+if find_check.total >= find_dc:
+	base += f''' -f "You managed to find some food!|**DC {find_dc}**{nl}**{fskill}:** {find_check}{nl}You {'are foraging for' if specific_species else 'end up finding'}: **{'** or **'.join(specific_species) if specific_species else species}**{nl+information if information else ''}"'''
+	deposit = meat_replace if meat_replace else species
+	if harvesting and (targeted == None or targeted == True):
+		dumb = '\*'
+		base += f''' -f "Time to harvest|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ""}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
+	elif targeted == False:
+		base += f''' -f "Not what you were foraging for|You were foraging for **{'** or **'.join(specific_species)}** but all you found was **{species}**. Better luck next time."'''
+		base += f''' -footer "{ctx.prefix}forage help | Triboar Guildhall Collection"'''
+	else:
+		base += f''' -f "Not really though|You could have if you wanted to. You're a good person. Thank you for not overforaging."'''
+		base += f''' -footer "{ctx.prefix}forage help | Triboar Guildhall Collection"'''
+elif find_dc >= 60 and find_check.total < find_dc:
+	base += f''' -f "There was nothing here!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
+else:
+	base += f''' -f "You couldn't find anything!|**DC {find_dc}**{nl}**{fskill}:** {find_check}"'''
+	base += f''' -footer "{ctx.prefix}forage help | Triboar Guildhall Collection"'''
+
+return base
+</drac2>

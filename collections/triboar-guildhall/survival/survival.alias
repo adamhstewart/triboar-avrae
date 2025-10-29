@@ -1,0 +1,7 @@
+<drac2>
+a = argparse(&ARGS&)
+
+# Display general survival help
+return f'''embed -title "Survival Alias Help" -color {color} -desc "Use survival skills to gather food and resources in the wilderness!" -f "Subcommands|**{ctx.prefix}hunt** - Hunt for game in various terrains\n**{ctx.prefix}fish** - Fish in rivers, lakes, and seas\n**{ctx.prefix}forage** - Forage for plants and edible food" -f "Usage|Each subcommand has its own help:\n`{ctx.prefix}hunt help`\n`{ctx.prefix}fish help`\n`{ctx.prefix}forage help`" -f "Examples|`{ctx.prefix}hunt grasslands`\n`{ctx.prefix}fish river`\n`{ctx.prefix}forage forest`" -footer "{ctx.prefix}survival help | Triboar Guildhall Collection"'''
+
+</drac2>
