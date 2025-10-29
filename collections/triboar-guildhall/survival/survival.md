@@ -53,3 +53,31 @@ Each survival activity involves:
 !survival forage forest
 !survival
 ```
+
+## Server Configuration
+
+Server admins can customize the survival system using these svars:
+
+### Channel Restrictions
+Restrict where each survival activity can be used:
+- `FishChannels` - Comma-separated channel IDs for fishing (e.g., `1234567890,9876543210`)
+- `HuntChannels` - Comma-separated channel IDs for hunting
+- `ForageChannels` - Comma-separated channel IDs for foraging
+
+If not set, activities can be used in any channel.
+
+### Species/Resource Data
+Customize what can be found in each location:
+- **Fishing:** `FishSpeciesRiver`, `FishSpeciesLake`, `FishSpeciesSea`
+- **Hunting:** `HuntSpeciesGrasslands`, `HuntSpeciesMountains`, `HuntSpeciesForest`
+- **Foraging:** `ForageSpeciesGrasslands`, `ForageSpeciesMountains`, `ForageSpeciesForest`
+
+### Custom Locations
+Add custom locations beyond the defaults:
+- `FishArgs` - Map custom fishing locations to species data
+- `HuntArgs` - Map custom terrains to species data (shared with forage)
+
+### General Settings
+- `SurvSettings` - JSON containing DC thresholds, harvest settings, and cooldown configuration
+
+See individual subcommand documentation for more details.
