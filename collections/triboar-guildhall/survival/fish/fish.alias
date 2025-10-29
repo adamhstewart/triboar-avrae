@@ -28,7 +28,23 @@ allowed_channels = get_svar("FishChannels", "")
 if allowed_channels:
 	channel_list = [ch.strip() for ch in allowed_channels.split(",")]
 	if str(ctx.channel.id) not in channel_list:
-		err(f'''This command can only be used in designated fishing channels. Contact your server admins for details.''')
+		channel_mentions = " ".join([f"<#{ch_id}>" for ch_id in channel_list])
+		return f'''embed -title "You can't fish here!" -color {color} -desc "This water isn't safe for fishing. Try fishing in: {channel_mentions}" -footer "{ctx.prefix}survival fish help | Triboar Guildhall Collection"'''
+
+# Check cooldown (global for all survival activities)
+cooldown_minutes = float(get_svar("SurvivalCooldown", "60"))
+cooldown_seconds = cooldown_minutes * 60
+last_survival = get("lastSurvival", "0")
+current_time = time()
+time_since_last = current_time - float(last_survival)
+
+if time_since_last < cooldown_seconds:
+	time_remaining = cooldown_seconds - time_since_last
+	hours = int(time_remaining // 3600)
+	minutes = int((time_remaining % 3600) // 60)
+	seconds = int(time_remaining % 60)
+	time_str = f"{hours}h {minutes}m {seconds}s" if hours > 0 else f"{minutes}m {seconds}s" if minutes > 0 else f"{seconds}s"
+	return f'''embed -title "You're too tired!" -color {color} -desc "You need to rest before attempting another survival activity. You can try again in **{time_str}**." -footer "{ctx.prefix}survival fish help | Triboar Guildhall Collection"'''
 
 # Setup error based on args
 if len(args) == 0:
@@ -206,6 +222,7 @@ if find_check.total >= find_dc:
 			dumb = '\*'
 			base += f''' -f "Time to clean your catch|**DC {max_DC}** (for 100%){nl}**Max Weight:** {max_weight} lbs.{nl}**{hskill}:** {harvest_check}/{max_DC}{dumb+str(harv_mult) if harv_mult>1 else ''}\*100 = **{harv_percent}%** (max 100){nl}You harvested: **{harvest}** lbs. of **{deposit}**{nl+'*Background or class feature affected harvest math*' if harv_mod or harv_mult>1 else ''}"'''
 			base += f''' -footer "{ctx.prefix}survival fish help | Triboar Guildhall Collection"'''
+			set_uvar("lastSurvival", str(current_time))
 		elif harvesting and targeted == False:
 			base += f''' -f "Catch and Release|You wanted to catch a **{'** or **'.join(specific_species)}** but caught **{species}** instead, so you threw it back."'''
 			base += f''' -footer "{ctx.prefix}survival fish help | Triboar Guildhall Collection"'''
