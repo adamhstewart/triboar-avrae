@@ -27,7 +27,7 @@ if allowed_channels:
 	channel_list = [ch.strip() for ch in allowed_channels.split(",")]
 	if str(ctx.channel.id) not in channel_list:
 		channel_mentions = " ".join([f"<#{ch_id}>" for ch_id in channel_list])
-		return f'''embed -title "You can't hunt here!" -color {color} -desc "There's no game in this area. Try hunting in: {channel_mentions}" -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
+		return f'''embed -title "{name} can't hunt here!" -color {color} -thumb {image} -desc "There's no game in this area. Try hunting in: {channel_mentions}" -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 
 # Check cooldown (global for all survival activities)
 cooldown_minutes = float(get_svar("SurvivalCooldown", "60"))
@@ -42,7 +42,7 @@ if time_since_last < cooldown_seconds:
 	minutes = int((time_remaining % 3600) // 60)
 	seconds = int(time_remaining % 60)
 	time_str = f"{hours}h {minutes}m {seconds}s" if hours > 0 else f"{minutes}m {seconds}s" if minutes > 0 else f"{seconds}s"
-	return f'''embed -title "You're too tired!" -color {color} -desc "You need to rest before attempting another survival activity. You can try again in **{time_str}**." -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
+	return f'''embed -title "{name} is too tired!" -color {color} -thumb {image} -desc "You need to rest before attempting another survival activity. You can try again in **{time_str}**." -footer "{ctx.prefix}survival hunt help | Triboar Guildhall Collection"'''
 
 # Setup error based on args
 if len(args) == 0:
