@@ -4,7 +4,7 @@ ch = character()
 
 # Display help if requested
 if not &ARGS& or &ARGS&[0].lower() in ['help', '?']:
-    return f'''embed -title "Price Lookup Help" -color {color} -desc "Look up item prices and crafting information!" -f "Usage|`{ctx.prefix}price <item name>`\\n\\nSearch for an item to view its name, type, rarity, cost, and crafting requirements." -f "Examples|`{ctx.prefix}price Bag of Holding`\\n`{ctx.prefix}price Potion of Healing`\\n`{ctx.prefix}price Longsword`" -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+    return f'''embed -title "Price Lookup Help" -color {color} -desc "Look up item prices and crafting information!" -f "Usage|`{ctx.prefix}price <item name>`\n\nSearch for an item to view its name, type, rarity, cost, and crafting requirements." -f "Examples|`{ctx.prefix}price Bag of Holding`\n`{ctx.prefix}price Potion of Healing`\n`{ctx.prefix}price Longsword`" -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
 
 # Get search term
 search_term = ' '.join(&ARGS&).lower()
@@ -26,12 +26,12 @@ matches = [item for item in items_data if search_term in item['name'].lower()]
 
 # No matches found
 if not matches:
-    return f'''embed -title "No Items Found" -color {color} -desc "No items found matching **{search_term}**\\n\\nTry a different search term or use `{ctx.prefix}price help` for usage information." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+    return f'''embed -title "No Items Found" -color {color} -desc "No items found matching **{search_term}**\n\nTry a different search term or use `{ctx.prefix}price help` for usage information." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
 
 # Too many matches
 if len(matches) > 10:
-    match_list = '\\n'.join([f"• {item['name']}" for item in matches[:10]])
-    return f'''embed -title "Too Many Results" -color {color} -desc "Found {len(matches)} items matching **{search_term}**. Showing first 10:\\n\\n{match_list}\\n\\n*...and {len(matches) - 10} more*\\n\\nPlease refine your search." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+    match_list = '\n'.join([f"• {item['name']}" for item in matches[:10]])
+    return f'''embed -title "Too Many Results" -color {color} -desc "Found {len(matches)} items matching **{search_term}**. Showing first 10:\n\n{match_list}\n\n*...and {len(matches) - 10} more*\n\nPlease refine your search." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
 
 # Single match - show full details
 if len(matches) == 1:
@@ -52,7 +52,7 @@ if len(matches) == 1:
 
 
 # Multiple matches - show list
-match_list = '\\n'.join([f"• **{item['name']}** ({item['rarity']}) - {item['cost']}" for item in matches])
-return f'''embed -title "Multiple Items Found" -color {color} -desc "Found {len(matches)} items matching **{search_term}**:\\n\\n{match_list}\\n\\nPlease be more specific." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
+match_list = '\n'.join([f"• **{item['name']}** ({item['rarity']}) - {item['cost']}" for item in matches])
+return f'''embed -title "Multiple Items Found" -color {color} -desc "Found {len(matches)} items matching **{search_term}**:\n\n{match_list}\n\nPlease be more specific." -footer "{ctx.prefix}price help | Triboar Guildhall Collection"'''
 
 </drac2>
