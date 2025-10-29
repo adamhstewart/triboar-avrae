@@ -16,9 +16,10 @@ Work a job to earn gold! Roll a skill check - the better your roll, the more gol
 ## Features
 
 - **Daily Cooldown**: Work once per day, resets at midnight in your timezone
-- **Timezone Support**: Set your timezone with `!uvar timezone <UTC_offset>` (e.g., `-5` for EST)
+- **Timezone Support**: Set your timezone with `!timezone <UTC_offset>` (e.g., `-5` for EST)
 - **Dynamic Descriptions**: Random flavor text based on the skill you use
 - **Bag Integration**: Automatically adds earned gold to your coin purse using baglib
+- **Channel Restriction**: Can be limited to specific channels by server admins (optional)
 
 ## Dependencies
 
@@ -34,9 +35,24 @@ Work a job to earn gold! Roll a skill check - the better your roll, the more gol
 !job help               # Show help message
 ```
 
-## Configuration
+## Server Configuration
 
-### Server Customization
+### Channel Restriction
+
+Admins can optionally restrict the job command to specific channels using an svar:
+
+```
+!svar jobChannels <channel_id>
+```
+
+For multiple channels, separate with commas:
+```
+!svar jobChannels 1432010748032188517, 1234567890123456789
+```
+
+If the `jobChannels` svar is not set, the command can be used in any channel.
+
+### Job Descriptions
 
 Servers can override job descriptions by setting an svar:
 ```
