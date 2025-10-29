@@ -1,0 +1,1743 @@
+[
+  {
+    "name": "Absorbing Tattoo",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Alchemical Compendium",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "All Purpose Tool +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "All-Purpose Tool +1",
+    "rarity": "Uncommon",
+    "cost": "1,500 gp*",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "All-Purpose Tool +2",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Amulet of the Devout +1",
+    "rarity": "Uncommon",
+    "cost": "425 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Amulet of the Devout +2",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Amulet of the Devout +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Arcane Grimoire +1",
+    "rarity": "Uncommon",
+    "cost": "425 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Arcane Grimoire +2",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Arcane Grimoire +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Astral Shard",
+    "rarity": "Rare",
+    "cost": "4,200 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Astromancy Archive",
+    "rarity": "Rare",
+    "cost": "3,300 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Atlas of Endless Horizons",
+    "rarity": "Rare",
+    "cost": "3,750 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Barrier Tattoo (Large)",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Barrier Tattoo (Rare)",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Barrier Tattoo (Uncommon)",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Bell Branch",
+    "rarity": "Rare",
+    "cost": "750 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Bloodwell Vial +1",
+    "rarity": "Uncommon",
+    "cost": "425 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Bloodwell Vial +2",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Bloodwell Vial +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Coiling Grasp Tattoo",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Crystalline Chronicle",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Devotee's Censer",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "TCE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Duplicitous Manuscript",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Eldritch Claw Tattoo",
+    "rarity": "Uncommon",
+    "cost": "750 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Elemental Essence Shard",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Far Realm Shard",
+    "rarity": "Rare",
+    "cost": "2,500 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Feywild Shard",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Fulminating Treatise",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Ghost Step Tattoo",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Guardian Emblem",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "TCE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Heart Weaver's Primer",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Illuminator's Tattoo",
+    "rarity": "Common",
+    "cost": "65 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Libram of Souls and Flesh",
+    "rarity": "Rare",
+    "cost": "4,200 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Lifewell Tattoo",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Lyre of Building",
+    "rarity": "Rare",
+    "cost": "4,750 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Masquerade Tattoo",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Moon Sickle +1",
+    "rarity": "Uncommon",
+    "cost": "1,500 gp*",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Moon Sickle +2",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Moon Sickle +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Outer Essence Shard",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Planecaller's Codex",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Protective Verses",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Reveler's Concertina",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Rhythm-Maker's Drum +1",
+    "rarity": "Uncommon",
+    "cost": "425 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Rhythm-Maker's Drum +2",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Rhythm-Maker's Drum +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Shadowfell Brand Tattoo",
+    "rarity": "Rare",
+    "cost": "1,100 gp",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Shadowfell Shard",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "TCE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Spellwrought Tattoo (1st Level)",
+    "rarity": "Common",
+    "cost": "250 gp | 62.5gp to recharge",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spellwrought Tattoo (2nd Level)",
+    "rarity": "Uncommon",
+    "cost": "1,000 gp | 250gp to recharge",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spellwrought Tattoo (3rd Level)",
+    "rarity": "Uncommon",
+    "cost": "3,000 gp | 750 to recharge",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spellwrought Tattoo (4th Level)",
+    "rarity": "Rare",
+    "cost": "15,000 | 3 to recharge",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spellwrought Tattoo (5th Level)",
+    "rarity": "Rare",
+    "cost": "25,000 gp | 4 to recharge",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spellwrought Tattoo (Cantrip)",
+    "rarity": "Common",
+    "cost": "150 gp | 37.5gp to recharge",
+    "source": "TCE",
+    "type": "Tattoo",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wand of Scowls",
+    "rarity": "Common",
+    "cost": "60 gp",
+    "source": "XGE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Smiles",
+    "rarity": "Common",
+    "cost": "60 gp",
+    "source": "XGE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Arcane Propulsion Arm",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "WGtE",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Armblade (any one-handed melee weapon)",
+    "rarity": "Common",
+    "cost": "Weapon Price + 100 gp",
+    "source": "WGtE",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Cleansing Stone",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Double-Bladed Scimitar",
+    "rarity": "Common (mundane)",
+    "cost": "100 gp",
+    "source": "WGtE",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Earworm",
+    "rarity": "Uncommon",
+    "cost": "225 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Everbright Lantern",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Feather Token (Feather Fall)",
+    "rarity": "Common",
+    "cost": "25 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Finder's Goggles",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Glamerweave (common)",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Glamerweave (uncommon)",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Imbued Wood Focus",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "WGtE",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Keycharm",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Kyrzin's Ooze",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "WGtE",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Living Armor",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "WGtE",
+    "type": "armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Living Gloves",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Orb of Shielding",
+    "rarity": "Common",
+    "cost": "80 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Scribe's Pen",
+    "rarity": "Common",
+    "cost": "60 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Shiftweave",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Spellshard",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ventilating Lungs",
+    "rarity": "Rare",
+    "cost": "1,000 gp",
+    "source": "WGtE",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Wand Sheath",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "WGtE",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Amethyst Lodestone",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "FTD",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Crystal Blade",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "FTD",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Dragon Wing Bow",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 1,500 gp",
+    "source": "FTD",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Dragonhide Belt +1",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "FTD",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Dragonhide Belt +2",
+    "rarity": "Rare",
+    "cost": "2,250 gp",
+    "source": "FTD",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Dragonhide Belt +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "FTD",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Emerald Pen",
+    "rarity": "Common",
+    "cost": "150 gp",
+    "source": "FTD",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Sapphire Buckler",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "FTD",
+    "type": "armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Slumbering Dragon Vessel",
+    "rarity": "Uncommon",
+    "cost": "2,750 gp",
+    "source": "FTD",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Brewer",
+      "Glassblower",
+      "Potter"
+    ]
+  },
+  {
+    "name": "Slumbering Dragon's Wrath Weapon",
+    "rarity": "Uncommon",
+    "cost": "Weapon Price + 400 gp",
+    "source": "FTD",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Slumbering Dragon-Touched Focus",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "FTD",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Slumbering Scaled Ornament",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "FTD",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Stirring Dragon Vessel",
+    "rarity": "Rare",
+    "cost": "5,500 gp",
+    "source": "FTD",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Brewer",
+      "Glassblower",
+      "Jeweler",
+      "Mason",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Stirring Dragon's Wrath Weapon +1",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 2,500 gp",
+    "source": "FTD",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Stirring Dragon-Touched Focus",
+    "rarity": "Rare",
+    "cost": "2,500 gp",
+    "source": "FTD",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Stirring Scaled Ornament",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "FTD",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Wakened Dragon Vessel",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "FTD",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wakened Dragon's Wrath Weapon",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "FTD",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wakened Dragon-Touched Focus",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "FTD",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Armor of Safeguarding",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Bloodshed Blade",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Crown of the Wrath Bringer",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "BGG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Delver's Claws",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "BGG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Elven Thrower",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Glowrune Pigment",
+    "rarity": "Rare",
+    "cost": "3,500 gp (6 uses)",
+    "source": "BGG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Jeweler",
+      "Painter"
+    ]
+  },
+  {
+    "name": "Lash of Immolation",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "BGG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Mistral mantle",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Nimbus Coronet",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Prehistoric Figurine of Wondrous Power Triceratops",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Prehistoric Figurine of Wondrous Power, Carnelian Triceratops",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Prehistoric Figurine of Wondrous Power, Kyanite Pteranodon",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "BGG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Prehistoric Figurine of Wondrous Power, Pyrite Plesiosaurus",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "BGG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Ring of Amity",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sanctum Amulet",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wayfarer's Boots",
+    "rarity": "Rare",
+    "cost": "2,500 gp",
+    "source": "BGG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Wyrmreaver Gauntlets",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BGG",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Zephyr Armor",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "BGG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Armor of Fungal Spores",
+    "rarity": "Uncommon",
+    "cost": "Armor Price + 600",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Armor of the Fallen",
+    "rarity": "Uncommon",
+    "cost": "Armor Price + 1,000 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Armor of Weightlessness",
+    "rarity": "Uncommon",
+    "cost": "Armor Price + 1,000 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Blasted Goggles",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "TBoMT",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Bloodrage Greataxe",
+    "rarity": "Uncommon",
+    "cost": "525 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Boomerang Shield",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Bow of Conflagration",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 1,500 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Breastplate of Balance",
+    "rarity": "Rare",
+    "cost": "3,400 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Card's Sharp's Deck",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "TBoMT",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery",
+      "Painter"
+    ]
+  },
+  {
+    "name": "Deck of Miscellany",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "TBoMT",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery",
+      "Painter"
+    ]
+  },
+  {
+    "name": "Donjon's Sundering Sphere",
+    "rarity": "Rare",
+    "cost": "3500 gp",
+    "source": "TBoMT",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Dried Leech",
+    "rarity": "Uncommon",
+    "cost": "60 gp",
+    "source": "TBoMT",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Fate Dealer's Deck +1",
+    "rarity": "Rare",
+    "cost": "1500 gp",
+    "source": "TBoMT",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery",
+      "Painter"
+    ]
+  },
+  {
+    "name": "Feywrought Armor",
+    "rarity": "Rare",
+    "cost": "Armor Price + 2,850 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Glimmering Moonbow",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 2,500 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Gloomwrought armor",
+    "rarity": "Rare",
+    "cost": "Armor Price + 2,850 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Grasping Whip",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "House of Cards",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "TBoMT",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery",
+      "Painter"
+    ]
+  },
+  {
+    "name": "Plate of the Knight's Fellowship",
+    "rarity": "Uncommon",
+    "cost": "2,500 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Ruinous Flail",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sage's Signet (Serpent)",
+    "rarity": "Rare",
+    "cost": "3600 gp",
+    "source": "TBoMT",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Sage's Signet (Songbird)",
+    "rarity": "Rare",
+    "cost": "3600 gp",
+    "source": "TBoMT",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Shield of the Tortoise",
+    "rarity": "Uncommon",
+    "cost": "160 gp",
+    "source": "TBoMT",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Shrieking Greaves",
+    "rarity": "Rare",
+    "cost": "1500 gp",
+    "source": "TBoMT",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sling of Giant Felling",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Starshot Crossbow",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 1,500 gp",
+    "source": "TBoMT",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Warrior's Passkey",
+    "rarity": "Rare",
+    "cost": "3000 gp",
+    "source": "TBoMT",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Antimagic Armor",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "generic variant",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Baleful Talon",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Bloodseeker Ammunition",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Ammuniation",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Bow of Melodies",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Clockwork Armor",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Crown of Whirling Comets",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Deck of Wild Cards",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Fate Cutter Shears",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Fate Dealer's Deck +2",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Fool's Blade",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Forcebreaker Weapon",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Hammer of Runic Focus",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Rod of Hellish Flames",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sage's Signet (Bear)",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sage's Signet (Hart)",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sage's Signet (Lion)",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sage's Signet (Wolf)",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Skull Helm",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Stonemaker's War Pick",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Tidecaller Trident",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Weapon of Throne's Command",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "BMT",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  }
+]

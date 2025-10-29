@@ -1,5 +1,9 @@
 {
     "gvars/test-gvar.gvar": "2a89d67d-620f-4904-9a5d-ee2893708cf3",
     "gvars/job-descriptions.gvar": "fa47e34f-99b2-4ddf-82a5-302b72010059",
-    "gvars/item-prices.gvar": "e804c557-9c33-4619-9ef5-6bb9eaf859ec"
+    "gvars/item-prices-dmg.gvar": "e804c557-9c33-4619-9ef5-6bb9eaf859ec",
+    "gvars/item-prices-phb.gvar": "1aaa99c4-bbde-474b-b53d-b255234f169d",
+    "gvars/item-prices-supplements.gvar": "cd541dc2-bc23-4bdd-ba27-cabe6ca1f124",
+    "gvars/item-prices-adventures.gvar": "5d6f77f5-472e-4320-839c-6038f4a19b7d",
+    "gvars/item-prices-other.gvar": "7bfcc6b4-16c5-4937-8e91-b889c96175df"
 }

@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Alchemist's Potion Belt",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Ambitious Medic's Box",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Brewer",
+      "Carpenter",
+      "Tinker",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Bath Potion",
+    "rarity": "Common",
+    "cost": "10 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Camper's Respite",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Cleaning Cube",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wondrous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Companion's Band",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Dagger of the Ogre Mage",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Foxfire Charm",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Gelatinous Whip",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mirrorlight Stinger",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 1,500 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Rope Caster",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Tinker",
+      "Weaver",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Serpent Rifle",
+    "rarity": "Rare",
+    "cost": "2800 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Shifter's Shine (Common)",
+    "rarity": "Common",
+    "cost": "150 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Shifter's Shine (Uncommon)",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Wispy Sour (Rare)",
+    "rarity": "Rare",
+    "cost": "800 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Wispy Sour (Uncommon)",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "Griffon's Saddlebag",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Blade Oil",
+    "rarity": "Common (mundane)",
+    "cost": "100 gp",
+    "source": "Mundane Armory",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Smoke Pellet",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "Mundane Armory",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Alchemist"
+    ]
+  },
+  {
+    "name": "Ioun Stone, Greater Absorption",
+    "rarity": "Legendary",
+    "cost": "",
+    "source": "",
+    "type": "",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Mastery",
+    "rarity": "Legendary",
+    "cost": "",
+    "source": "",
+    "type": "",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Regeneration",
+    "rarity": "Legendary",
+    "cost": "",
+    "source": "",
+    "type": "",
+    "craftable": false,
+    "tools": []
+  }
+]

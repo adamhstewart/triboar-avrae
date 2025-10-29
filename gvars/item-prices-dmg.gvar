@@ -1,0 +1,3687 @@
+[
+  {
+    "name": "Wraps of Unarmed Prowess +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Adamantine Armor (medium or heavy, but not hide)",
+    "rarity": "Uncommon",
+    "cost": "Armor Price + 1,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Alchemy Jug",
+    "rarity": "Uncommon",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Mason",
+      "Potter"
+    ]
+  },
+  {
+    "name": "Ammunition +1",
+    "rarity": "Uncommon",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Ammunition +2",
+    "rarity": "Rare",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Ammunition +3",
+    "rarity": "Very Rare",
+    "cost": "2,500 gp",
+    "source": "DMG",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Amulet of Health",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Amulet of Proof Against Detection and Location",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Amulet of the Planes",
+    "rarity": "Very Rare",
+    "cost": "",
+    "source": "DMG",
+    "type": "",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Animated Shield",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Armor (light, medium, or heavy) +1",
+    "rarity": "Rare",
+    "cost": "Base Armor + 3,500 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Armor (light, medium, or heavy) +2",
+    "rarity": "Very Rare",
+    "cost": "Base Armor + 20,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Armor (light, medium, or heavy) +3",
+    "rarity": "Legendary",
+    "cost": "Base Armor + 20,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Armor of Resistance (light, medium, or heavy)",
+    "rarity": "Rare",
+    "cost": "Armor Price + 3,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Armor of Vulnerability (plate)",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Bag of Beans",
+    "rarity": "Rare",
+    "cost": "4,200 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Bag of Holding",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Bag of Tricks",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Bead of Force",
+    "rarity": "Rare",
+    "cost": "6,750 gp (8 beads)",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Belt of Dwarvenkind",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Belt of Frost Giant Strength",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Belt of Giant Strength (Hill)",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Belt of Stone Giant Strength",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Berserker Axe (cursed)",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Bomb",
+    "rarity": "Common (mundane)",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Boots of Levitation",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Boots of Speed",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Boots of Striding and Springing",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Bowl of Commanding Water Elementals",
+    "rarity": "Rare",
+    "cost": "4,700 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Potter"
+    ]
+  },
+  {
+    "name": "Bracers of Archery",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Bracers of Defense",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Brazier of Commanding Fire Elementals",
+    "rarity": "Rare",
+    "cost": "4,700 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Brooch of Shielding",
+    "rarity": "Uncommon",
+    "cost": "375 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Broom of Flying",
+    "rarity": "Uncommon",
+    "cost": "4,500 gp*",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Cap of Water Breathing",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Cape of the Mountebank",
+    "rarity": "Rare",
+    "cost": "3,900 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Carpet of Flying",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Censer of Controlling Air Elementals",
+    "rarity": "Rare",
+    "cost": "4,700 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Chime of Opening",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Circlet of Blasting",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Cloak of Arachnida",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Cloak of Displacement",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Cloak of Protection",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Cloak of the Bat",
+    "rarity": "Rare",
+    "cost": "4,600 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Crystal Ball",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Cube of Force",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Glassblower"
+    ]
+  },
+  {
+    "name": "Daern's Instant Fortress (Instant Fortress)",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Dagger of Venom",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Dancing Sword",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Deck of Illusions",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery",
+      "Painter"
+    ]
+  },
+  {
+    "name": "Demon Armor",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Dimensional Shackles",
+    "rarity": "Rare",
+    "cost": "2,800 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Dragon Slayer (any sword)",
+    "rarity": "Rare",
+    "cost": "4,800 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Dust of Disappearance",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Dust of Dryness",
+    "rarity": "Uncommon",
+    "cost": "350 gp (10 uses)",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Dwarven Plate",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Dwarven Thrower",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Dyrrn's Tentacle Whip",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Elemental Gem",
+    "rarity": "Uncommon",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Elixir of Health",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Elven Chain (chain shirt)",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "rarity": "Uncommon",
+    "cost": "270 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Potter",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Eyes of Charming",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Eyes of Minute Seeing",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Bronze Griffon)",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Ebony Fly)",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Golden Lions)",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Ivory Goats)",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Marble Elephant)",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Obsidian Steed)",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Figurine of Wondrous Power (Onyx Dog)",
+    "rarity": "Rare",
+    "cost": "3,200 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Serpentine Owl)",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Silver Raven)",
+    "rarity": "Uncommon",
+    "cost": "380 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Flame Tongue (any sword)",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Folding Boat",
+    "rarity": "Rare",
+    "cost": "4,750 gp",
+    "source": "DMG",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Frost Brand",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Gem of Brightness",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Gem of Seeing",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Giant Slayer (any axe or sword)",
+    "rarity": "Rare",
+    "cost": "4,600 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "rarity": "Rare",
+    "cost": "4,800 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Gloves of Missile Snaring",
+    "rarity": "Uncommon",
+    "cost": "325 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Gloves of Thievery",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Goggles of Night",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Hat of Disguise",
+    "rarity": "Uncommon",
+    "cost": "475 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Headband of Intellect",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Helm of Brilliance",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Helm of Comprehending Languages",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Helm of Telepathy",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Helm of Teleportation",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Heward's Handy Haversack",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Horn of Blasting",
+    "rarity": "Rare",
+    "cost": "2,500 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Horn of Valhalla (Silver/Brass)",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Horn of Valhalla, Bronze",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Horseshoes of a Zephyr",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Horseshoes of Speed",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Immovable Rod",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Instrument of the Bards (Canaith Mandolin)",
+    "rarity": "Rare",
+    "cost": "3,750 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Instrument of the Bards (Cli Lyre)",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Instrument of the Bards (Doss Lute)",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Instrument of the Bards (Fochlucan Bandore)",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Instrument of the Bards (Mac-Fuimidh Cittern)",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Instrument of the Bards, Ansturth Harp",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Absorption",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Agility",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Awareness",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Ioun Stone, Fortitude",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Insight",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Intellect",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Leadership",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Protection",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Ioun Stone, Reserve",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Ioun Stone, Strength",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ioun Stone, Sustenance",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Iron Bands of Bilarro",
+    "rarity": "Rare",
+    "cost": "2,600 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Javelin of Lightning",
+    "rarity": "Uncommon",
+    "cost": "750 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Keoghtom's Ointment (Restorative Ointment)",
+    "rarity": "Uncommon",
+    "cost": "1,250 gp (5 doses)",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Lantern of Revealing",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Mace of Disruption",
+    "rarity": "Rare",
+    "cost": "1,750 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mace of Smiting",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mace of Terror",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mantle of Spell Resistance",
+    "rarity": "Rare",
+    "cost": "4,200 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Mariner's Armor (light, medium, or heavy)",
+    "rarity": "Uncommon",
+    "cost": "Armor Price + 400",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Mithral Armor (medium or heavy, but not hide)",
+    "rarity": "Uncommon",
+    "cost": "Armor Price + 900 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Necklace of Fireballs",
+    "rarity": "Rare",
+    "cost": "4,350 gp (9 Beads)",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Nine Lives Stealer",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Nolzur's Marvelous Pigments",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wondrous item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Oathbow",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Oil of Etherealness",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Oil of Sharpness",
+    "rarity": "Very Rare",
+    "cost": "2,200 gp*",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Pearl of Power",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Periapt of Health",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Periapt of Proof Against Poison",
+    "rarity": "Rare",
+    "cost": "4,700 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Periapt of Wound Closure",
+    "rarity": "Uncommon",
+    "cost": "375 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Philter of Love",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Pipes of Haunting",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Portable Hole",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "rarity": "Uncommon",
+    "cost": "200 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Clairvoyance",
+    "rarity": "Rare",
+    "cost": "900 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Climbing",
+    "rarity": "Common",
+    "cost": "30 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Diminution",
+    "rarity": "Rare",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Fire Breath",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Flying",
+    "rarity": "Very Rare",
+    "cost": "2,500 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Giant Strength (Cloud)",
+    "rarity": "Very Rare",
+    "cost": "1,800 gp*",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Giant Strength (Fire)",
+    "rarity": "Rare",
+    "cost": "1,200 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Giant Strength (Frost/Stone)",
+    "rarity": "Rare",
+    "cost": "650 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Giant Strength (Hill)",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Greater Healing (Uncommon)",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Growth",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Healing (Common)",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Heroism",
+    "rarity": "Rare",
+    "cost": "800 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Invisibility",
+    "rarity": "Very Rare",
+    "cost": "2,000 gp*",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Invulnerability",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Longevity",
+    "rarity": "Very Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Mind Reading",
+    "rarity": "Rare",
+    "cost": "1,100 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Poison",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Resistance",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Speed",
+    "rarity": "Very Rare",
+    "cost": "2,000 gp*",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Superior Healing (Rare)",
+    "rarity": "Rare",
+    "cost": "750 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Supreme Healing (Very Rare)",
+    "rarity": "Very Rare",
+    "cost": "1,500 gp*",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Vitality",
+    "rarity": "Very Rare",
+    "cost": "1,800 gp*",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Potion of Waterbreathing",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Quaal's Feather Token (Anchor, Bird, Fan, Swan Boat, Tree or Whip)",
+    "rarity": "Rare",
+    "cost": "1,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Quiver of Ehlonna (Efficient Quiver)",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "rarity": "Rare",
+    "cost": "1,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Evasion",
+    "rarity": "Rare",
+    "cost": "4,900 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "rarity": "Rare",
+    "cost": "2,200 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Free Action",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Jumping",
+    "rarity": "Uncommon",
+    "cost": "250 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Protection",
+    "rarity": "Rare",
+    "cost": "3,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Regeneration",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ring of Resistance",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Swimming",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Ring",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ring of the Ram",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Warmth",
+    "rarity": "Uncommon",
+    "cost": "480 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of Water Walking",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Ring of X-Ray Vision",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Robe of Eyes",
+    "rarity": "Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Robe of Scintillating Colors",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Robe of Stars",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wonderous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Robe of Useful Items",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Rod of Absorption",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Rod of Alertness",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Rod of Rulership",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Rod of the Pact Keeper +1",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Rod of the Pact Keeper +2",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Rod of the Pact Keeper +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Rope of Climbing",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Rope of Entanglement",
+    "rarity": "Rare",
+    "cost": "1,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Saddle of the Cavalier",
+    "rarity": "Uncommon",
+    "cost": "Saddle Price + 250 gp",
+    "source": "DMG",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Scimitar of Speed",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Scroll of Protection",
+    "rarity": "Rare",
+    "cost": "3,500 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Sending Stones",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Sentinel Shield",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Shield +1",
+    "rarity": "Uncommon",
+    "cost": "450 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Shield +2",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Shield +3",
+    "rarity": "Very Rare",
+    "cost": "22,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "rarity": "Rare",
+    "cost": "1,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "rarity": "Uncommon",
+    "cost": "500 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Spell Scroll (1st Level)",
+    "rarity": "Common",
+    "cost": "25 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (2nd Level)",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (3rd Level)",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (4th Level)",
+    "rarity": "Rare",
+    "cost": "800 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (5th Level)",
+    "rarity": "Rare",
+    "cost": "1,500 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (6th Level)",
+    "rarity": "Very Rare",
+    "cost": "2,000 gp*",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (7th Level)",
+    "rarity": "Very Rare",
+    "cost": "3,500 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (8th Level)",
+    "rarity": "Very Rare",
+    "cost": "5,000 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spell Scroll (Cantrip)",
+    "rarity": "Common",
+    "cost": "15 gp",
+    "source": "DMG",
+    "type": "Scroll",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Spellguard Shield",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Staff of Charming",
+    "rarity": "Rare",
+    "cost": "3,750 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of Fire",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Staff of Frost",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Staff of Healing",
+    "rarity": "Rare",
+    "cost": "4,800 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of Striking",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Staff of Swarming Insects",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of the Adder",
+    "rarity": "Uncommon",
+    "cost": "350 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of the Python",
+    "rarity": "Uncommon",
+    "cost": "1,000 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of the Woodlands",
+    "rarity": "Rare",
+    "cost": "4,500 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of Thunder and Lightning",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Staff of Withering",
+    "rarity": "Rare",
+    "cost": "2,100 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Stone of Controlling Earth Elementals",
+    "rarity": "Rare",
+    "cost": "4,700 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Stone of Good Luck",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Sword of Life Stealing (any sword)",
+    "rarity": "Rare",
+    "cost": "2,200 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sword of Sharpness",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sword of Vengeance (any sword)",
+    "rarity": "Uncommon",
+    "cost": "Weapon Price + 400 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sword of Wounding (any sword)",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 1,200 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Tentacle Rod",
+    "rarity": "Rare",
+    "cost": "2,000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Trident of Fish Command",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Vicious Weapon (any weapon)",
+    "rarity": "Rare",
+    "cost": "Weapon Price + 4,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Wand of Binding",
+    "rarity": "Rare",
+    "cost": "2,500 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Enemy Detection",
+    "rarity": "Rare",
+    "cost": "3,750 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Fear",
+    "rarity": "Rare",
+    "cost": "3,250 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Fireballs",
+    "rarity": "Rare",
+    "cost": "4,800 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Lightning Bolts",
+    "rarity": "Rare",
+    "cost": "4,800 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Paralysis",
+    "rarity": "Rare",
+    "cost": "4,250 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Polymorph",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "wand",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wand of Secrets",
+    "rarity": "Uncommon",
+    "cost": "125 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of the War Mage +1",
+    "rarity": "Uncommon",
+    "cost": "400 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of the War Mage +2",
+    "rarity": "Rare",
+    "cost": "4,000 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of the War Mage +3",
+    "rarity": "Very Rare",
+    "cost": "25,000 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wand of Web",
+    "rarity": "Uncommon",
+    "cost": "300 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Wonder",
+    "rarity": "Rare",
+    "cost": "2,250 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Weapon (any) +1",
+    "rarity": "Uncommon",
+    "cost": "Base Weapon + 500 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Weapon (any) +2",
+    "rarity": "Rare",
+    "cost": "Base Weapon + 2,500 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Weapon (any) +3",
+    "rarity": "Very Rare",
+    "cost": "Base Weapon + 15,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Weapon of Warning",
+    "rarity": "Uncommon",
+    "cost": "Weapon Price + 400 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Wind Fan",
+    "rarity": "Uncommon",
+    "cost": "150 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Carpenter",
+      "Tinker",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Winged Boots",
+    "rarity": "Uncommon",
+    "cost": "5,000 gp*",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Wings of Flying",
+    "rarity": "Rare",
+    "cost": "3,600 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Silvered Weapons",
+    "rarity": "Common (mundane)",
+    "cost": "Weapon Price + 200 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wraps of Unarmed Prowess +1",
+    "rarity": "Uncommon",
+    "cost": "600 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Wraps of Unarmed Prowess +2",
+    "rarity": "Rare",
+    "cost": "3000 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Nature's Mantle",
+    "rarity": "Uncommon",
+    "cost": "325 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Prosthetic Limb",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Adamantine Weapons",
+    "rarity": "Common (mundane)",
+    "cost": "Weapon Price + 1,000 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Armor of Gleaming (any medium or heavy)",
+    "rarity": "Common",
+    "cost": "Armor Price + 150 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Bead of Nourishment",
+    "rarity": "Common",
+    "cost": "25 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer"
+    ]
+  },
+  {
+    "name": "Bead of Refreshment",
+    "rarity": "Common",
+    "cost": "25 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer"
+    ]
+  },
+  {
+    "name": "Boots of False Tracks",
+    "rarity": "Common",
+    "cost": "60 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Cobbler",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Candle of the Deep",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Alchemist"
+    ]
+  },
+  {
+    "name": "Cast-Off Armor (light, medium, or heavy)",
+    "rarity": "Common",
+    "cost": "Armor Price + 100 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Charlatan's Die",
+    "rarity": "Common",
+    "cost": "80 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Cloak of Billowing",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Cloak of Many Fashions",
+    "rarity": "Common",
+    "cost": "90 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Clockwork Amulet",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Clothes of Mending",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Dark Shard Amulet",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Dread Helm",
+    "rarity": "Common",
+    "cost": "55 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Ear Horn of Hearing",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Enduring Spellbook",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Ersatz Eye",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Hat of Vermin",
+    "rarity": "Common",
+    "cost": "65 gp",
+    "source": "DMG",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Hat of Wizardry",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Heward's Handy Spice Pouch",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Horn of Silent Alarm",
+    "rarity": "Common",
+    "cost": "85 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": []
+  },
+  {
+    "name": "Instrument of Illusions",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Instrument of Scribing",
+    "rarity": "Common",
+    "cost": "80 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Lock of Trickery",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Moon-Touched Sword (any sword)",
+    "rarity": "Common",
+    "cost": "Weapon Price + 75 gp",
+    "source": "DMG",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mystery Key",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Orb of Direction",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Orb of Time",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Perfume of Bewitching",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "DMG",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Pipe of Smoke Monsters",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Pole of Angling",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Pole of Collapsing",
+    "rarity": "Common",
+    "cost": "55 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Pot of Awakening",
+    "rarity": "Common",
+    "cost": "85 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Potter"
+    ]
+  },
+  {
+    "name": "Rope of Mending",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Ruby of the War Mage",
+    "rarity": "Common",
+    "cost": "100 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Shield of Expression",
+    "rarity": "Common",
+    "cost": "60 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Smoldering Armor (light, medium, or heavy)",
+    "rarity": "Common",
+    "cost": "Armor Price + 150 gp",
+    "source": "DMG",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Staff of Adornment",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of Birdcalls",
+    "rarity": "Common",
+    "cost": "70 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Staff of Flowers",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Talking Doll",
+    "rarity": "Common",
+    "cost": "75 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Tankard of Sobriety",
+    "rarity": "Common",
+    "cost": "80 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Veteran's Cane",
+    "rarity": "Common",
+    "cost": "50 gp",
+    "source": "DMG",
+    "type": "Wondrous Item",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Walloping Ammunition",
+    "rarity": "Common",
+    "cost": "60 gp",
+    "source": "DMG",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "As Base Item"
+    ]
+  },
+  {
+    "name": "Wand of Conducting",
+    "rarity": "Common",
+    "cost": "90 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Wand of Pyrotechnics",
+    "rarity": "Common",
+    "cost": "65 gp",
+    "source": "DMG",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  }
+]

@@ -1,0 +1,2400 @@
+[
+  {
+    "name": "Abacus",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Acid (vial)",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Alchemist's fire (flask)",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Alchemist's supplies",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Amulet",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Antitoxin (vial)",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Arrows (20)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Backpack",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Bagpipes",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Ball bearings (bag of 1,000)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Barding",
+    "rarity": "Common (mundane)",
+    "cost": "Armor Price x 4",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Barrel",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Basket",
+    "rarity": "Common (mundane)",
+    "cost": "0.4 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Battleaxe",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Bedroll",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Bell",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Bit and bridle",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Blanket",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Block and tackle",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Blowgun",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Potter",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Blowgun needles (50)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Book",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Bottle, glass",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower"
+    ]
+  },
+  {
+    "name": "Breastplate",
+    "rarity": "Common (mundane)",
+    "cost": "400 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Brewer's supplies",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Bucket",
+    "rarity": "Common (mundane)",
+    "cost": "0.05 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Potter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Burglar's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "16 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Calligrapher's supplies",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Caltrops (bag of 20)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Camel",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Candle",
+    "rarity": "Common (mundane)",
+    "cost": "0.01 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Alchemist"
+    ]
+  },
+  {
+    "name": "Carpenter's tools",
+    "rarity": "Common (mundane)",
+    "cost": "8 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Carriage",
+    "rarity": "Common (mundane)",
+    "cost": "100 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Cart",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Cartographer's tools",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Case, crossbow bolt",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Case, map or scroll",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Chain (10 feet)",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Chain mail",
+    "rarity": "Common (mundane)",
+    "cost": "75 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Chain shirt",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Chalk (1 piece)",
+    "rarity": "Common (mundane)",
+    "cost": "0.01 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Chariot",
+    "rarity": "Common (mundane)",
+    "cost": "250 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Chest",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Climber's kit",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Clothes, common",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Clothes, costume",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Clothes, fine",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Clothes, traveler's",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Club",
+    "rarity": "Common (mundane)",
+    "cost": "0.1 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Cobbler's tools",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Component pouch",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Cook's utensils",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Crossbow bolts (20)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Crossbow, hand",
+    "rarity": "Common (mundane)",
+    "cost": "75 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Crossbow, heavy",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Crossbow, light",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Crowbar",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Crystal",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Dagger",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Dart",
+    "rarity": "Common (mundane)",
+    "cost": "0.05 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Dice set",
+    "rarity": "Common (mundane)",
+    "cost": "0.1 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Diplomat's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "39 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Disguise kit",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Donkey or mule",
+    "rarity": "Common (mundane)",
+    "cost": "8 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Draft horse",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Dragonchess set",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Drum",
+    "rarity": "Common (mundane)",
+    "cost": "6 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Dulcimer",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Dungeoneer's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "12 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Elephant",
+    "rarity": "Common (mundane)",
+    "cost": "200 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Emblem",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Entertainer's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "40 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Explorer's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Feed (per day)",
+    "rarity": "Common (mundane)",
+    "cost": "0.05 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Fishing tackle",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Flail",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Flask or tankard",
+    "rarity": "Common (mundane)",
+    "cost": "0.02 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Flute",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Forgery kit",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Galley",
+    "rarity": "Rare (mundane)",
+    "cost": "30,000 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Glaive",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Glassblower's tools",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Grappling hook",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Greataxe",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Greatclub",
+    "rarity": "Common (mundane)",
+    "cost": "0.2 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Greatsword",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Halberd",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Half plate",
+    "rarity": "Common (mundane)",
+    "cost": "750 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Hammer",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Hammer, sledge",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Handaxe",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Healer's kit",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Herbalism kit",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Hide",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Holy water (flask)",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Horn",
+    "rarity": "Common (mundane)",
+    "cost": "3 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Hourglass",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower"
+    ]
+  },
+  {
+    "name": "Hunting trap",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Ink (1 ounce bottle)",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ink pen",
+    "rarity": "Common (mundane)",
+    "cost": "0.02 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Forgery"
+    ]
+  },
+  {
+    "name": "Javelin",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Jeweler's tools",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Jug or pitcher",
+    "rarity": "Common (mundane)",
+    "cost": "0.02 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Potter"
+    ]
+  },
+  {
+    "name": "Keelboat",
+    "rarity": "Rare (mundane)",
+    "cost": "3,000 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Ladder (10 foot)",
+    "rarity": "Common (mundane)",
+    "cost": "0.1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Lamp",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower"
+    ]
+  },
+  {
+    "name": "Lance",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Lantern, bullseye",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Lantern, hooded",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Leather",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Leatherworker's tools",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Light hammer",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Lock",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Longbow",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Longship",
+    "rarity": "Rare (mundane)",
+    "cost": "10,000 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Longsword",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Lute",
+    "rarity": "Common (mundane)",
+    "cost": "35 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Lyre",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Mace",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Magnifying glass",
+    "rarity": "Common (mundane)",
+    "cost": "100 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower"
+    ]
+  },
+  {
+    "name": "Manacles",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mason's tools",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Mastiff",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Maul",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mess kit",
+    "rarity": "Common (mundane)",
+    "cost": "0.2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Mirror, steel",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Morningstar",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Navigator's tools",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Net",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Oil (flask)",
+    "rarity": "Common (mundane)",
+    "cost": "0.1 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Orb",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Padded",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Painter's supplies",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Pan flute",
+    "rarity": "Common (mundane)",
+    "cost": "12 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Paper (one sheet)",
+    "rarity": "Common (mundane)",
+    "cost": "0.2 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Parchment (one sheet)",
+    "rarity": "Common (mundane)",
+    "cost": "0.1 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Perfume (vial)",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Pick, miner's",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Pike",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Piton",
+    "rarity": "Common (mundane)",
+    "cost": "0.05 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Plate",
+    "rarity": "Uncommon (mundane)",
+    "cost": "1500 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Playing card set",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Poison, basic (vial)",
+    "rarity": "Common (mundane)",
+    "cost": "100 gp",
+    "source": "PHB",
+    "type": "Potion",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Poisoner's kit",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Pole (10-foot)",
+    "rarity": "Common (mundane)",
+    "cost": "0.05 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Pony",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Pot, iron",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Potter's tools",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Pouch",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Priest's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "19 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Quarterstaff",
+    "rarity": "Common (mundane)",
+    "cost": "0.2 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Quiver",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Ram, portable",
+    "rarity": "Common (mundane)",
+    "cost": "4 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Rapier",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Rations (1 day)",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Reliquary",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Riding horse",
+    "rarity": "Common (mundane)",
+    "cost": "75 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Ring mail",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Robes",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Rod",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Rope, hempen (50 feet)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Rope, silk (50 feet)",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Rowboat",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Sack",
+    "rarity": "Common (mundane)",
+    "cost": "0.01 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Saddle, Exotic",
+    "rarity": "Common (mundane)",
+    "cost": "60 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Saddle, Military",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Saddle, Pack",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Saddle, Riding",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Saddlebags",
+    "rarity": "Common (mundane)",
+    "cost": "4 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Sailing ship",
+    "rarity": "Rare (mundane)",
+    "cost": "10,000 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Scale mail",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Scale, merchant's",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Scholar's Pack",
+    "rarity": "Common (mundane)",
+    "cost": "40 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Scimitar",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sealing wax",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Alchemist"
+    ]
+  },
+  {
+    "name": "Shawm",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Shield",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Shortbow",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Shortsword",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Shovel",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sickle",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Signal whistle",
+    "rarity": "Common (mundane)",
+    "cost": "0.05 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Tinker",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Signet ring",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Wearable",
+    "craftable": true,
+    "tools": [
+      "Jeweler"
+    ]
+  },
+  {
+    "name": "Silvered Ammunition",
+    "rarity": "Common (mundane)",
+    "cost": "200 gp",
+    "source": "PHB",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Sled",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Sling",
+    "rarity": "Common (mundane)",
+    "cost": "0.1 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Sling bullets (20)",
+    "rarity": "Common (mundane)",
+    "cost": "0.04 gp",
+    "source": "PHB",
+    "type": "Ammunition",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Smith's tools",
+    "rarity": "Common (mundane)",
+    "cost": "20 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Soap",
+    "rarity": "Common (mundane)",
+    "cost": "0.02 gp",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spear",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Spell Components",
+    "rarity": "Common (mundane)",
+    "cost": "Varies",
+    "source": "PHB",
+    "type": "Material",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spellbook",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Calligrapher",
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Spiked Armor",
+    "rarity": "Common (mundane)",
+    "cost": "75 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Spikes, iron (10)",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Splint",
+    "rarity": "Common (mundane)",
+    "cost": "200 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Sprig of mistletoe",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Spyglass",
+    "rarity": "Common (mundane)",
+    "cost": "1000 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Glassblower"
+    ]
+  },
+  {
+    "name": "Staff",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Studded Leather",
+    "rarity": "Common (mundane)",
+    "cost": "45 gp",
+    "source": "PHB",
+    "type": "Armor",
+    "craftable": true,
+    "tools": [
+      "Leatherworker"
+    ]
+  },
+  {
+    "name": "Tent, two-person",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Thieves' tools",
+    "rarity": "Common (mundane)",
+    "cost": "25 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Three-Dragon Ante set",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Tinderbox",
+    "rarity": "Common (mundane)",
+    "cost": "0.5 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Tinker's tools",
+    "rarity": "Common (mundane)",
+    "cost": "50 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Torch",
+    "rarity": "Common (mundane)",
+    "cost": "0.01 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Alchemist"
+    ]
+  },
+  {
+    "name": "Totem",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Trident",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Vial",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Alchemist",
+      "Brewer",
+      "Herbalism"
+    ]
+  },
+  {
+    "name": "Viol",
+    "rarity": "Common (mundane)",
+    "cost": "30 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": true,
+    "tools": [
+      "Carpenter"
+    ]
+  },
+  {
+    "name": "Wagon",
+    "rarity": "Common (mundane)",
+    "cost": "35 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wand",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "War pick",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Warhammer",
+    "rarity": "Common (mundane)",
+    "cost": "15 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Smith"
+    ]
+  },
+  {
+    "name": "Warhorse",
+    "rarity": "Common (mundane)",
+    "cost": "400 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Warship",
+    "rarity": "Rare (mundane)",
+    "cost": "25,000 gp",
+    "source": "PHB",
+    "type": "Vechicle/Mount",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Waterskin",
+    "rarity": "Common (mundane)",
+    "cost": "0.2 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Weaver's tools",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Whetstone",
+    "rarity": "Common (mundane)",
+    "cost": "0.01 gp",
+    "source": "PHB",
+    "type": "Adventuring Gear",
+    "craftable": true,
+    "tools": [
+      "Jeweler",
+      "Mason"
+    ]
+  },
+  {
+    "name": "Whip",
+    "rarity": "Common (mundane)",
+    "cost": "2 gp",
+    "source": "PHB",
+    "type": "Weapon",
+    "craftable": true,
+    "tools": [
+      "Leatherworker",
+      "Smith"
+    ]
+  },
+  {
+    "name": "Woodcarver's tools",
+    "rarity": "Common (mundane)",
+    "cost": "1 gp",
+    "source": "PHB",
+    "type": "Tool",
+    "craftable": false,
+    "tools": []
+  },
+  {
+    "name": "Wooden staff",
+    "rarity": "Common (mundane)",
+    "cost": "5 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Smith",
+      "Woodcarver"
+    ]
+  },
+  {
+    "name": "Yew wand",
+    "rarity": "Common (mundane)",
+    "cost": "10 gp",
+    "source": "PHB",
+    "type": "Focus",
+    "craftable": true,
+    "tools": [
+      "Carpenter",
+      "Jeweler",
+      "Woodcarver"
+    ]
+  }
+]

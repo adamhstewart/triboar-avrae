@@ -9,8 +9,17 @@ if not &ARGS& or &ARGS&[0].lower() in ['help', '?']:
 # Get search term
 search_term = ' '.join(&ARGS&).lower()
 
-# Load item database from gvar
-items_data = load_json(get_gvar('ITEM_PRICES_GVAR_ID'))
+# Load item database from multiple gvars
+items_data = []
+gvar_ids = {
+    'dmg': 'e804c557-9c33-4619-9ef5-6bb9eaf859ec',
+    'phb': '1aaa99c4-bbde-474b-b53d-b255234f169d',
+    'supplements': 'cd541dc2-bc23-4bdd-ba27-cabe6ca1f124',
+    'adventures': '5d6f77f5-472e-4320-839c-6038f4a19b7d',
+    'other': '7bfcc6b4-16c5-4937-8e91-b889c96175df'
+}
+for category, gvar_id in gvar_ids.items():
+    items_data.extend(load_json(get_gvar(gvar_id)))
 
 # Search for matching items
 matches = [item for item in items_data if search_term in item['name'].lower()]
@@ -34,6 +43,7 @@ if len(matches) == 1:
     output += f''' -f "Type|{item['type']}"'''
     output += f''' -f "Rarity|{item['rarity']}"'''
     output += f''' -f "Cost|{item['cost']}"'''
+    output += f''' -f "Source|{item['source']}"'''
     output += f''' -f "Craftable|{craftable_display}"'''
     if item['craftable'] and item['tools']:
         output += f''' -f "Tools Required|{tools_display}"'''
