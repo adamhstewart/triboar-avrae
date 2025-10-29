@@ -178,6 +178,7 @@ hmc = (10 if c.csettings.get("talent", False) and hab.prof else None)
 harvest_string = hab.d20(har, rr_num, hmc) + ("+1d4[guidance]" if parse.get("guidance") else "") + misc_bonus + harv_bonus
 harvest_check = vroll(harvest_string)
 
+
 # Process the harvest check, even if things weren't caught
 if "harvest the water" in backfeat.lower():
 	min_harvest = min(max_weight,11)

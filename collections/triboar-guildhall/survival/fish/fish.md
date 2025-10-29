@@ -1,1 +1,1 @@
-An alias for fishing.
+An alias for fishing.OK
